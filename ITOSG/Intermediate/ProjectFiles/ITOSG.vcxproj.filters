@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ITOSG.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{BE34C03A-2F68-44D2-832E-E600D142CC3D}</UniqueIdentifier>
+			<UniqueIdentifier>{747D5F3D-9F54-49E6-BAD9-23B72468825C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ITOSG.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{2C0C15FB-0F6D-4FC6-8BE9-79B4CB346DCC}</UniqueIdentifier>
+			<UniqueIdentifier>{E94E64E4-482F-4CD5-ABB4-DC2F0CB81206}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ITOSG">
-			<UniqueIdentifier>{36DF9371-890A-4E76-B6DC-75073F2F2B14}</UniqueIdentifier>
+			<UniqueIdentifier>{D4C6083D-4A13-498A-ADD7-F0BB22FE5F90}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ITOSG\ITOSG.Build.cs">
 			<Filter>Source\ITOSG</Filter>
@@ -58,6 +58,12 @@
 			<Filter>Source\ITOSG</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\ITOSG\ITOSGPlayerController.h">
+			<Filter>Source\ITOSG</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ITOSG\NPCBase.cpp">
+			<Filter>Source\ITOSG</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ITOSG\NPCBase.h">
 			<Filter>Source\ITOSG</Filter>
 		</ClInclude >
 	</ItemGroup>
