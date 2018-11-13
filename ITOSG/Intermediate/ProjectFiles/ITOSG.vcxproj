@@ -428,6 +428,8 @@
 		<ClInclude Include="..\..\Source\ITOSG\ITOSGGameMode.h" />
 		<ClCompile Include="..\..\Source\ITOSG\ITOSGPlayerController.cpp" />
 		<ClInclude Include="..\..\Source\ITOSG\ITOSGPlayerController.h" />
+		<ClCompile Include="..\..\Source\ITOSG\NonPlayerCharacter.cpp" />
+		<ClInclude Include="..\..\Source\ITOSG\NonPlayerCharacter.h" />
 		<ClCompile Include="..\..\Source\ITOSG\NPCBase.cpp" />
 		<ClInclude Include="..\..\Source\ITOSG\NPCBase.h" />
 	</ItemGroup>
