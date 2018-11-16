@@ -24,9 +24,9 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG"
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source"
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source\ITOSG"
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSG
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -410,12 +410,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source\ITOSG\ITOSG.cpp"
-/FI"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
-/Fo"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\ITOSG.cpp.obj"
+/FI"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSG\ITOSG.cpp"
+/FI"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
+/Fo"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\ITOSG.cpp.obj"
 /TP
 /GR-
 /W4
