@@ -1,0 +1,770 @@
+﻿Log file open, 11/16/18 15:21:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ITOSG
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.236885
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.266s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1607 v3 @ 3.10GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.16-15.21.42:974][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-15.21.42:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.16-15.21.43:001][  0]LogHAL: Display: Platform has ~ 16 GB [17083682816 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.16-15.21.43:001][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.16-15.21.43:001][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.16-15.21.43:001][  0]LogInit: Computer: S500-22
+[2018.11.16-15.21.43:001][  0]LogInit: User: l012265h
+[2018.11.16-15.21.43:001][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.16-15.21.43:001][  0]LogInit: High frequency timer resolution =3.020355 MHz
+[2018.11.16-15.21.43:002][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.16-15.21.43:002][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.16-15.21.43:002][  0]LogMemory: Process Physical Memory: 99.85 MB used, 99.85 MB peak
+[2018.11.16-15.21.43:002][  0]LogMemory: Process Virtual Memory: 84.29 MB used, 84.29 MB peak
+[2018.11.16-15.21.43:002][  0]LogMemory: Physical Memory: 5754.69 MB used,  10537.58 MB free, 16292.27 MB total
+[2018.11.16-15.21.43:002][  0]LogMemory: Virtual Memory: 4620.36 MB used,  10537.58 MB free, 134217728.00 MB total
+[2018.11.16-15.21.43:043][  0]LogInit: Using OS detected language (en-US).
+[2018.11.16-15.21.43:043][  0]LogInit: Using OS detected locale (en-GB).
+[2018.11.16-15.21.43:045][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.16-15.21.43:477][  0]LogStreaming: Display: Took  0.434s to InitEngineTextLocalization.
+[2018.11.16-15.21.43:477][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.16-15.21.43:510][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.16-15.21.43:510][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.16-15.21.43:865][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.16-15.21.43:865][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.16-15.21.43:939][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.11.16-15.21.43:939][  0]LogD3D11RHI:       4043/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.16-15.21.43:942][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.16-15.21.43:942][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.16-15.21.43:942][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.16-15.21.43:951][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.16-15.21.43:951][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.16-15.21.43:951][  0]LogWindows: EnumDisplayDevices:
+[2018.11.16-15.21.43:952][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.11.16-15.21.43:952][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.11.16-15.21.43:953][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.16-15.21.43:953][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.16-15.21.43:953][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.16-15.21.43:953][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.11.16-15.21.43:953][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.11.16-15.21.43:953][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.11.16-15.21.43:953][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.11.16-15.21.44:002][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.16-15.21.44:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.16-15.21.44:108][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Intermediate/Shaders/WorkingDirectory/3096/).
+[2018.11.16-15.21.44:108][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/l012265h/AppData/Local/Temp/UnrealShaderWorkingDir/2C6520214354AFBA06E80B94D0B93B93/'.
+[2018.11.16-15.21.44:588][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.16-15.21.44:608][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.16-15.21.44:627][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.16-15.21.44:646][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.16-15.21.44:666][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.16-15.21.44:685][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.16-15.21.44:704][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.16-15.21.44:724][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.16-15.21.44:734][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-15.21.44:843][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.16-15.21.44:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-15.21.44:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-15.21.44:945][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-15.21.44:945][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-15.21.44:961][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.16-15.21.44:978][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.16-15.21.44:994][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.16-15.21.45:016][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.16-15.21.45:031][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.16-15.21.45:031][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.16-15.21.45:171][  0]LogXGEController: Cleaning working directory: C:/Users/l012265h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.16-15.21.45:172][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.16-15.21.45:172][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.16-15.21.45:172][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.16-15.21.46:316][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.16-15.21.46:433][  0]LogDerivedDataCache: Loaded boot cache 0.12s 73MB C:/Users/l012265h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-15.21.46:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/l012265h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.16-15.21.46:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.16-15.21.46:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.16-15.21.46:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.16-15.21.46:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.16-15.21.46:450][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.16-15.21.46:462][  0]LogDerivedDataCache: Using Local data cache path C:/Users/l012265h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.16-15.21.46:462][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.16-15.21.46:462][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.16-15.21.46:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.16-15.21.46:487][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.16-15.21.46:488][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.16-15.21.46:583][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.11.16-15.21.47:006][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-15.21.47:181][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.16-15.21.47:189][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.16-15.21.47:189][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.16-15.21.47:189][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.16-15.21.47:189][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.16-15.21.47:215][  0]LogNetVersion: ITOSG 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 987612483)
+[2018.11.16-15.21.47:888][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.150336 seconds
+[2018.11.16-15.21.47:894][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.16-15.21.47:894][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.16-15.21.47:894][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.16-15.21.49:076][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.16-15.21.49:089][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.16-15.21.49:550][  0]SourceControl: Source control is disabled
+[2018.11.16-15.21.49:550][  0]SourceControl: Source control is disabled
+[2018.11.16-15.21.49:554][  0]SourceControl: Source control is disabled
+[2018.11.16-15.21.49:555][  0]SourceControl: Source control is disabled
+[2018.11.16-15.21.49:799][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.16-15.21.49:917][  0]LogOcInput: OculusInput pre-init called
+[2018.11.16-15.21.50:018][  0]LogEngine: Initializing Engine...
+[2018.11.16-15.21.50:020][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.16-15.21.50:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-15.21.50:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-15.21.50:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-15.21.50:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-15.21.50:306][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.16-15.21.50:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.16-15.21.50:344][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-15.21.50:385][  0]LogInit: FAudioDevice initialized.
+[2018.11.16-15.21.50:385][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.16-15.21.50:572][  0]LogDerivedDataCache: Saved boot cache 0.19s 73MB C:/Users/l012265h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-15.21.50:580][  0]LogInit: Texture streaming: Enabled
+[2018.11.16-15.21.50:628][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.16-15.21.50:666][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.16-15.21.50:812][  0]LogInit: Transaction tracking system initialized
+[2018.11.16-15.21.50:893][  0]BlueprintLog: New page: Editor Load
+[2018.11.16-15.21.51:088][  0]LocalizationService: Localization service is disabled
+[2018.11.16-15.21.51:477][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.16-15.21.51:477][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.16-15.21.51:477][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.16-15.21.51:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-15.21.51:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-15.21.51:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-15.21.51:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-15.21.51:661][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/' took 0.03s
+[2018.11.16-15.21.51:661][  0]SourceControl: Source control is disabled
+[2018.11.16-15.21.51:661][  0]Cmd: MAP LOAD FILE="../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.16-15.21.51:662][  0]LightingResults: New page: Lighting Build
+[2018.11.16-15.21.51:667][  0]MapCheck: New page: Map Check
+[2018.11.16-15.21.51:667][  0]LightingResults: New page: Lighting Build
+[2018.11.16-15.21.51:786][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2018.11.16-15.21.51:786][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2018.11.16-15.21.51:787][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2018.11.16-15.21.52:278][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2018.11.16-15.21.52:278][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2018.11.16-15.21.52:278][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2018.11.16-15.21.52:287][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2018.11.16-15.21.52:287][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2018.11.16-15.21.52:288][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2018.11.16-15.21.52:288][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2018.11.16-15.21.52:360][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2018.11.16-15.21.52:360][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2018.11.16-15.21.52:361][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2018.11.16-15.21.52:361][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2018.11.16-15.21.52:422][  0]LogMaterial: Display: Missing cached shader map for material M_ky_circle04, compiling. 
+[2018.11.16-15.21.52:457][  0]LogMaterial: Display: Missing cached shader map for material M_ky_fire03b, compiling. 
+[2018.11.16-15.21.52:483][  0]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.16-15.21.52:483][  0]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.16-15.21.52:483][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.16-15.21.52:483][  0]LogMaterial: Display: Missing cached shader map for material M_ky_fire03b, compiling. 
+[2018.11.16-15.21.52:510][  0]LogMaterial: Display: Missing cached shader map for material M_ky_shockWave03_4x4, compiling. 
+[2018.11.16-15.21.52:531][  0]LogMaterial: Display: Missing cached shader map for material M_ky_shockWave03_4x4, compiling. 
+[2018.11.16-15.21.52:552][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2018.11.16-15.21.52:575][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2018.11.16-15.21.52:597][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2018.11.16-15.21.52:624][  0]LogMaterial: Display: Missing cached shader map for material M_ky_primitiveColor, compiling. 
+[2018.11.16-15.21.52:650][  0]LogMaterial: Display: Missing cached shader map for material M_ky_primitiveColor, compiling. 
+[2018.11.16-15.21.52:683][  0]LogMaterial: Display: Missing cached shader map for material M_ky_primitive_dyn2, compiling. 
+[2018.11.16-15.21.52:706][  0]LogMaterial: Display: Missing cached shader map for material M_ky_lensFlare02, compiling. 
+[2018.11.16-15.21.52:722][  0]LogMaterial: Display: Missing cached shader map for material M_ky_polarGlow02, compiling. 
+[2018.11.16-15.21.52:752][  0]LogMaterial: Display: Missing cached shader map for material M_ky_dynDust, compiling. 
+[2018.11.16-15.21.52:775][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2018.11.16-15.21.52:798][  0]LogMaterial: Display: Missing cached shader map for material M_ky_base_turbulence, compiling. 
+[2018.11.16-15.21.52:823][  0]LogMaterial: Display: Missing cached shader map for material M_ky_starDust, compiling. 
+[2018.11.16-15.21.52:859][  0]LogMaterial: Display: Missing cached shader map for material M_ky_starDust, compiling. 
+[2018.11.16-15.21.52:890][  0]LogMaterial: Display: Missing cached shader map for material M_ky_shockwave08, compiling. 
+[2018.11.16-15.21.52:912][  0]LogMaterial: Display: Missing cached shader map for material M_ky_gaseous03, compiling. 
+[2018.11.16-15.21.52:932][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2018.11.16-15.21.53:042][  0]LogMaterial: Display: Missing cached shader map for material M_ky_flare_flash, compiling. 
+[2018.11.16-15.21.53:062][  0]LogMaterial: Display: Missing cached shader map for material M_ky_polarShockwave2, compiling. 
+[2018.11.16-15.21.53:081][  0]LogMaterial: Display: Missing cached shader map for material M_ky_polarShockwave2, compiling. 
+[2018.11.16-15.21.53:106][  0]LogMaterial: Display: Missing cached shader map for material M_ky_auraWall, compiling. 
+[2018.11.16-15.21.53:125][  0]LogMaterial: Display: Missing cached shader map for material M_ky_auraWall, compiling. 
+[2018.11.16-15.21.53:149][  0]LogMaterial: Display: Missing cached shader map for material M_ky_starDust, compiling. 
+[2018.11.16-15.21.53:181][  0]LogMaterial: Display: Missing cached shader map for material M_ky_slash01_4x4, compiling. 
+[2018.11.16-15.21.53:203][  0]LogMaterial: Display: Missing cached shader map for material M_ky_slash02_4x4, compiling. 
+[2018.11.16-15.21.53:226][  0]LogMaterial: Display: Missing cached shader map for material M_ky_stone02, compiling. 
+[2018.11.16-15.21.53:247][  0]LogMaterial: Display: Missing cached shader map for material M_ky_vortex04_4x4, compiling. 
+[2018.11.16-15.21.53:266][  0]LogMaterial: Display: Missing cached shader map for material M_ky_vortex04_4x4, compiling. 
+[2018.11.16-15.21.53:287][  0]LogMaterial: Display: Missing cached shader map for material M_ky_thunderForBeam, compiling. 
+[2018.11.16-15.21.53:324][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-15.21.53:336][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.16-15.21.53:363][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.16-15.21.53:684][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 320.2ms to complete.
+[2018.11.16-15.21.53:684][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.023
+[2018.11.16-15.21.53:845][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.21.53:854][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.21.53:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.21.53:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.21.53:887][  0]LogCollectionManager: Loaded 0 collections in 0.005051 seconds
+[2018.11.16-15.21.53:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/Collections/' took 0.01s
+[2018.11.16-15.21.53:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/Developers/l012265h/Collections/' took 0.01s
+[2018.11.16-15.21.53:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/Collections/' took 0.01s
+[2018.11.16-15.21.53:937][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.16-15.21.53:949][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2575 classes and 605 folders.
+[2018.11.16-15.21.53:962][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.16-15.21.54:071][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.16-15.21.54:080][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.16-15.21.54:098][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.16-15.21.54:100][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.16-15.21.54:106][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.16-15.21.54:209][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.16-15.21.54:369][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.21.54:389][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.11.16-15.21.54:423][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.16-15.21.54:423][  0]LogLoad: (Engine Initialization) Total time: 14.83 seconds
+[2018.11.16-15.21.54:423][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.16-15.21.54:455][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.16-15.21.54:464][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.21.54:495][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-15.21.54:668][  2]LogAssetRegistry: Asset discovery search completed in 8.1081 seconds
+[2018.11.16-15.21.54:671][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.16-15.21.54:671][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.11.16-15.21.56:840][226]LogSlate: Window 'Message Log' being destroyed
+[2018.11.16-15.21.56:842][226]LogSlate: Window 'Message Log' being destroyed
+[2018.11.16-15.22.01:082][696]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_thunderStorm)
+[2018.11.16-15.22.02:593][696]LogShaderCompilers: Display: Shaders left to compile 1427
+[2018.11.16-15.22.02:594][696]LogShaderCompilers: Display: Shaders left to compile 1417
+[2018.11.16-15.22.02:594][696]LogShaderCompilers: Display: Shaders left to compile 1407
+[2018.11.16-15.22.04:016][697]LogShaderCompilers: Display: Shaders left to compile 1397
+[2018.11.16-15.22.04:016][697]LogShaderCompilers: Display: Shaders left to compile 1387
+[2018.11.16-15.22.05:192][798]LogShaderCompilers: Display: Shaders left to compile 1377
+[2018.11.16-15.22.13:225][603]LogShaderCompilers: Display: Shaders left to compile 1367
+[2018.11.16-15.22.15:602][846]LogShaderCompilers: Display: Shaders left to compile 1357
+[2018.11.16-15.22.33:290][640]LogShaderCompilers: Display: Shaders left to compile 1347
+[2018.11.16-15.22.38:344][161]LogShaderCompilers: Display: Shaders left to compile 1337
+[2018.11.16-15.22.38:971][226]LogShaderCompilers: Display: Shaders left to compile 1327
+[2018.11.16-15.22.43:929][731]LogShaderCompilers: Display: Shaders left to compile 1317
+[2018.11.16-15.22.49:189][272]LogShaderCompilers: Display: Shaders left to compile 1307
+[2018.11.16-15.22.49:210][274]LogShaderCompilers: Display: Shaders left to compile 1297
+[2018.11.16-15.22.59:705][331]LogShaderCompilers: Display: Shaders left to compile 1287
+[2018.11.16-15.23.16:009][ 17]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_thunderStorm)
+[2018.11.16-15.23.16:640][ 79]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_thunderStorm)
+[2018.11.16-15.23.17:837][201]Cmd: DELETE
+[2018.11.16-15.23.17:837][201]Cmd: ACTOR DELETE
+[2018.11.16-15.23.17:946][201]LogEditorActor: Deleted Actor: Emitter
+[2018.11.16-15.23.18:031][201]LogEditorActor: Deleted 1 Actors (0.178 secs)
+[2018.11.16-15.23.19:670][363]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_fireStorm)
+[2018.11.16-15.23.19:798][364]LogShaderCompilers: Display: Shaders left to compile 1277
+[2018.11.16-15.23.20:411][367]LogShaderCompilers: Display: Shaders left to compile 1267
+[2018.11.16-15.23.20:542][368]Cmd: DELETE
+[2018.11.16-15.23.20:542][368]Cmd: ACTOR DELETE
+[2018.11.16-15.23.20:545][368]LogEditorActor: Deleted Actor: Emitter
+[2018.11.16-15.23.20:571][368]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.11.16-15.23.21:380][456]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_storm)
+[2018.11.16-15.23.21:912][501]Cmd: DELETE
+[2018.11.16-15.23.21:912][501]Cmd: ACTOR DELETE
+[2018.11.16-15.23.21:915][501]LogEditorActor: Deleted Actor: Emitter
+[2018.11.16-15.23.21:939][501]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.11.16-15.23.22:935][616]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_auroraAura)
+[2018.11.16-15.23.23:196][619]LogShaderCompilers: Display: Shaders left to compile 1257
+[2018.11.16-15.23.24:157][619]LogShaderCompilers: Display: Shaders left to compile 1247
+[2018.11.16-15.23.24:394][619]LogShaderCompilers: Display: Shaders left to compile 1237
+[2018.11.16-15.23.32:551][448]LogShaderCompilers: Display: Shaders left to compile 1227
+[2018.11.16-15.23.35:256][725]LogShaderCompilers: Display: Shaders left to compile 1217
+[2018.11.16-15.23.35:793][782]LogShaderCompilers: Display: Shaders left to compile 1207
+[2018.11.16-15.23.37:400][949]Cmd: DELETE
+[2018.11.16-15.23.37:400][949]Cmd: ACTOR DELETE
+[2018.11.16-15.23.37:403][949]LogEditorActor: Deleted Actor: Emitter
+[2018.11.16-15.23.37:428][949]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.11.16-15.23.38:076][ 24]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_aquaStorm)
+[2018.11.16-15.23.39:315][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.23.39:771][144]LogShaderCompilers: Display: Shaders left to compile 1197
+[2018.11.16-15.23.40:708][147]LogShaderCompilers: Display: Shaders left to compile 1187
+[2018.11.16-15.23.41:655][147]LogShaderCompilers: Display: Shaders left to compile 1177
+[2018.11.16-15.23.42:434][147]LogShaderCompilers: Display: Shaders left to compile 1167
+[2018.11.16-15.23.43:084][147]LogShaderCompilers: Display: Shaders left to compile 1157
+[2018.11.16-15.23.44:229][147]LogShaderCompilers: Display: Shaders left to compile 1147
+[2018.11.16-15.23.45:421][147]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2018.11.16-15.23.45:588][147]LogShaderCompilers: Display: Shaders left to compile 1137
+[2018.11.16-15.23.45:608][147]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.23.47:311][310]LogShaderCompilers: Display: Shaders left to compile 1127
+[2018.11.16-15.23.50:389][636]LogShaderCompilers: Display: Shaders left to compile 1117
+[2018.11.16-15.23.54:314][ 52]LogShaderCompilers: Display: Shaders left to compile 1107
+[2018.11.16-15.23.58:872][534]LogShaderCompilers: Display: Shaders left to compile 1097
+[2018.11.16-15.24.01:937][855]LogShaderCompilers: Display: Shaders left to compile 1087
+[2018.11.16-15.24.03:060][969]LogShaderCompilers: Display: Shaders left to compile 1077
+[2018.11.16-15.24.03:126][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.24.08:024][505]LogShaderCompilers: Display: Shaders left to compile 1067
+[2018.11.16-15.24.11:463][893]LogShaderCompilers: Display: Shaders left to compile 1057
+[2018.11.16-15.24.12:679][ 31]LogShaderCompilers: Display: Shaders left to compile 1047
+[2018.11.16-15.24.17:581][590]LogShaderCompilers: Display: Shaders left to compile 1037
+[2018.11.16-15.24.18:402][684]LogShaderCompilers: Display: Shaders left to compile 1027
+[2018.11.16-15.24.19:036][756]LogShaderCompilers: Display: Shaders left to compile 1017
+[2018.11.16-15.24.22:454][145]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_aquaStorm)
+[2018.11.16-15.24.23:419][246]LogShaderCompilers: Display: Shaders left to compile 1007
+[2018.11.16-15.24.24:440][364]LogShaderCompilers: Display: Shaders left to compile 997
+[2018.11.16-15.24.25:777][515]LogShaderCompilers: Display: Shaders left to compile 987
+[2018.11.16-15.24.26:949][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.24.30:293][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.24.30:769][ 75]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_aquaStorm)
+[2018.11.16-15.24.31:190][114]LogShaderCompilers: Display: Shaders left to compile 977
+[2018.11.16-15.24.31:200][115]Cmd: DELETE
+[2018.11.16-15.24.31:200][115]Cmd: ACTOR DELETE
+[2018.11.16-15.24.31:203][115]LogEditorActor: Deleted Actor: Emitter
+[2018.11.16-15.24.31:229][115]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.11.16-15.24.31:932][194]LogShaderCompilers: Display: Shaders left to compile 967
+[2018.11.16-15.24.32:107][214]LogShaderCompilers: Display: Shaders left to compile 957
+[2018.11.16-15.24.35:429][585]LogShaderCompilers: Display: Shaders left to compile 947
+[2018.11.16-15.24.36:768][735]LogShaderCompilers: Display: Shaders left to compile 937
+[2018.11.16-15.24.36:777][736]LogShaderCompilers: Display: Shaders left to compile 927
+[2018.11.16-15.24.39:768][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.24.39:927][ 78]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-15.24.40:170][ 78]LogShaderCompilers: Display: Shaders left to compile 917
+[2018.11.16-15.24.40:283][ 78]LogSavePackage: Moving '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/TopDownExampleMapDE3C46C6450BF75047FC8F99DCE2CA14.tmp' to '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2018.11.16-15.24.42:550][321]LogShaderCompilers: Display: Shaders left to compile 907
+[2018.11.16-15.24.43:996][483]LogShaderCompilers: Display: Shaders left to compile 897
+[2018.11.16-15.24.45:412][642]LogShaderCompilers: Display: Shaders left to compile 887
+[2018.11.16-15.24.47:548][883]LogShaderCompilers: Display: Shaders left to compile 877
+[2018.11.16-15.24.49:073][ 55]LogShaderCompilers: Display: Shaders left to compile 867
+[2018.11.16-15.24.50:755][244]LogShaderCompilers: Display: Shaders left to compile 857
+[2018.11.16-15.24.51:806][362]LogShaderCompilers: Display: Shaders left to compile 847
+[2018.11.16-15.24.53:855][590]LogShaderCompilers: Display: Shaders left to compile 837
+[2018.11.16-15.24.55:395][763]LogShaderCompilers: Display: Shaders left to compile 827
+[2018.11.16-15.24.55:490][774]LogShaderCompilers: Display: Shaders left to compile 817
+[2018.11.16-15.24.57:723][ 25]LogShaderCompilers: Display: Shaders left to compile 807
+[2018.11.16-15.24.59:323][201]LogShaderCompilers: Display: Shaders left to compile 797
+[2018.11.16-15.25.00:268][308]LogShaderCompilers: Display: Shaders left to compile 787
+[2018.11.16-15.25.00:380][320]MapCheck: New page: Map Check
+[2018.11.16-15.25.00:458][320]LightingResults: New page: Lighting Build - 16 Nov 2018 15:25:00
+[2018.11.16-15.25.00:814][320]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.16-15.25.01:069][320]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.16-15.25.01:138][320]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.16-15.25.02:968][320]LogShaderCompilers: Display: Shaders left to compile 777
+[2018.11.16-15.25.02:968][320]LogShaderCompilers: Display: Shaders left to compile 767
+[2018.11.16-15.25.02:968][320]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.16-15.25.02:968][320]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3096
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 757
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 747
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 737
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 727
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 717
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 707
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 697
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 687
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 677
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 667
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 657
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 647
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 637
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 627
+[2018.11.16-15.25.14:841][320]LogShaderCompilers: Display: Shaders left to compile 617
+[2018.11.16-15.25.14:841][320]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.16-15.25.14:841][320]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.16-15.25.14:841][320]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.16-15.25.14:841][320]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.16-15.25.14:841][320]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.16-15.25.18:759][320]LogShaderCompilers: Display: Shaders left to compile 607
+[2018.11.16-15.25.18:759][320]LogShaderCompilers: Display: Shaders left to compile 597
+[2018.11.16-15.25.18:759][320]LogShaderCompilers: Display: Shaders left to compile 587
+[2018.11.16-15.25.18:759][320]LogShaderCompilers: Display: Shaders left to compile 577
+[2018.11.16-15.25.18:759][320]LogShaderCompilers: Display: Shaders left to compile 567
+[2018.11.16-15.25.18:771][320]LogEditorBuildUtils: Build time 0:18
+[2018.11.16-15.25.20:582][322]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.11.16-15.25.20:819][322]Job has failed! Job is closed while Tasks are still PENDING
+[2018.11.16-15.25.20:819][322]LogShaderCompilers: Display: Shaders left to compile 557
+[2018.11.16-15.25.20:819][322]DumpUnbuiltLightIteractions
+[2018.11.16-15.25.20:819][322]Lights with unbuilt interactions: 1
+[2018.11.16-15.25.20:819][322]    Light LightSource
+[2018.11.16-15.25.20:819][322]
+[2018.11.16-15.25.20:819][322]Primitives with unbuilt interactions: 24
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Wall2_21.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Wall5.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Wall1.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Wall3.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Floor_20.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube31_19.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube30_18.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube29_17.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube28_16.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube27_15.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube26_14.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube25_13.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube24_12.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube23_11.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube22_10.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube21_9.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube20_8.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube17_7.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube14_6.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube10_5.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube8_4.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube4_3.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube2_2.StaticMeshComponent0
+[2018.11.16-15.25.20:819][322]    Primitive StaticMeshComponent /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.Cube_1.StaticMeshComponent0
+[2018.11.16-15.25.20:880][322]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 547
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 537
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 527
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 517
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 507
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 497
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 487
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 477
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 467
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 457
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 447
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 437
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 427
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 417
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 407
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 397
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 387
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 377
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 367
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 357
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 347
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 337
+[2018.11.16-15.26.06:235][322]LogShaderCompilers: Display: Shaders left to compile 327
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 317
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 307
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 297
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 287
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 277
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 267
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 257
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 247
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 237
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 227
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 217
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 207
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 197
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 187
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 177
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 167
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 157
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.16-15.26.06:236][322]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.16-15.26.06:395][323]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.16-15.26.06:395][323]MapCheck: New page: TopDownExampleMap - 16 Nov 2018 15:26:06
+[2018.11.16-15.26.06:396][323]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.11.16-15.26.06:744][323]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 349.065ms to complete.
+[2018.11.16-15.26.06:754][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.26.06:825][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.26.06:858][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.26.16:095][381]LogSlate: Window 'Message Log' being destroyed
+[2018.11.16-15.26.16:099][381]LogSlate: Window 'Message Log' being destroyed
+[2018.11.16-15.26.35:814][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.26.37:026][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.26.38:647][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.26.38:722][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.16-15.26.38:745][ 88]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.26.38:745][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-15.26.38:779][ 88]PIE: New page: PIE session: TopDownExampleMap (16 Nov 2018 15:26:38)
+[2018.11.16-15.26.38:779][ 88]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.16-15.26.38:823][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044812s)
+[2018.11.16-15.26.38:824][ 88]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-15.26.38:824][ 88]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2018.11.16-15.26.38:824][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.046073s)
+[2018.11.16-15.26.38:856][ 88]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-15.26.38:873][ 88]LogInit: FAudioDevice initialized.
+[2018.11.16-15.26.38:934][ 88]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.16-15.26.38:948][ 88]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.16-15.26.38
+[2018.11.16-15.26.38:948][ 88]LogWorld: Bringing up level for play took: 0.003395
+[2018.11.16-15.26.39:021][ 88]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 10 classes and 0 folders.
+[2018.11.16-15.26.39:105][ 88]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.329
+[2018.11.16-15.26.39:105][ 88]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.26.58:978][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.26.59:054][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.26.59:063][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.26.59:117][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-15.26.59:117][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.26.59:173][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.26.59:215][452]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.16-15.26.59:842][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.16-15.26.59:858][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.26.59:858][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-15.26.59:858][527]PIE: New page: PIE session: TopDownExampleMap (16 Nov 2018 15:26:59)
+[2018.11.16-15.26.59:858][527]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.16-15.26.59:875][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016763s)
+[2018.11.16-15.26.59:875][527]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-15.26.59:875][527]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2018.11.16-15.26.59:876][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.017733s)
+[2018.11.16-15.26.59:906][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-15.26.59:921][527]LogInit: FAudioDevice initialized.
+[2018.11.16-15.26.59:960][527]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.16-15.26.59:962][527]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.16-15.26.59
+[2018.11.16-15.26.59:962][527]LogWorld: Bringing up level for play took: 0.001521
+[2018.11.16-15.26.59:976][527]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.541
+[2018.11.16-15.26.59:976][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.27.20:809][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.27.20:910][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.27.20:910][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.27.20:945][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-15.27.20:945][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.27.20:971][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.27.21:011][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.16-15.36.08:124][258]LogSavePackage: Moving '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/TopDownExampleMap_Auto1F7AD6AD54373C9C3EE012198424927F8.tmp' to '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2018.11.16-15.36.08:133][258]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.233
+[2018.11.16-15.36.08:133][258]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2018.11.16-15.36.08:136][258]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData] ([1] browsable assets)...
+[2018.11.16-15.36.08:136][258]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData]
+[2018.11.16-15.36.08:147][258]LogSavePackage: Moving '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/TopDownExampleMap_BuiltData_Auto427322D84F8B806106C406B5ED90C45A.tmp' to '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData_Auto1.uasset'
+[2018.11.16-15.36.08:151][258]LogFileHelpers: Auto-saving content packages took 0.017
+[2018.11.16-15.36.37:922][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.36.43:530][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.36.43:800][980]LogSavePackage: Moving '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/TopDownExampleMap7F7A52524EFCB5F3A90965BF2F0201DD.tmp' to '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2018.11.16-15.36.43:850][980]LogSavePackage: Moving '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Saved/TopDownExampleMap_BuiltData1A2C2E9A4B834E12FE432997358285DB.tmp' to '../../../../../../Users/l012265h/Documents/GitHub/WGT/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.11.16-15.43.40:254][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-15.43.43:041][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.16-15.43.43:656][ 28]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_ky_heal1)
+[2018.11.16-15.43.49:191][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.43.49:257][689]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.16-15.43.49:273][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.43.49:273][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-15.43.49:274][689]PIE: New page: PIE session: TopDownExampleMap (16 Nov 2018 15:43:49)
+[2018.11.16-15.43.49:274][689]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.16-15.43.49:343][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069668s)
+[2018.11.16-15.43.49:344][689]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-15.43.49:345][689]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2018.11.16-15.43.49:345][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.071084s)
+[2018.11.16-15.43.49:376][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-15.43.49:393][689]LogInit: FAudioDevice initialized.
+[2018.11.16-15.43.49:428][689]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.16-15.43.49:432][689]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.16-15.43.49
+[2018.11.16-15.43.49:433][689]LogWorld: Bringing up level for play took: 0.003352
+[2018.11.16-15.43.49:451][689]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.011
+[2018.11.16-15.43.49:451][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.44.00:881][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-15.44.00:932][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.44.00:932][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.44.00:967][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-15.44.00:968][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-15.44.00:996][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-15.44.01:037][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.16-15.44.20:296][221]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-16.14.39:403][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-16.14.39:495][163]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.16-16.14.39:512][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.39:513][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-16.14.39:513][163]PIE: New page: PIE session: TopDownExampleMap (16 Nov 2018 16:14:39)
+[2018.11.16-16.14.39:513][163]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.16-16.14.39:541][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027814s)
+[2018.11.16-16.14.39:542][163]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-16.14.39:542][163]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2018.11.16-16.14.39:542][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029045s)
+[2018.11.16-16.14.39:572][163]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-16.14.39:589][163]LogInit: FAudioDevice initialized.
+[2018.11.16-16.14.39:621][163]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.16-16.14.39:623][163]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.16-16.14.39
+[2018.11.16-16.14.39:623][163]LogWorld: Bringing up level for play took: 0.001677
+[2018.11.16-16.14.39:637][163]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.19
+[2018.11.16-16.14.39:637][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.42:175][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.42:175][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-16.14.42:208][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-16.14.42:208][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.42:247][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-16.14.42:281][465]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.16-16.14.42:747][521]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.16-16.14.42:762][521]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.42:762][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-16.14.42:763][521]PIE: New page: PIE session: TopDownExampleMap (16 Nov 2018 16:14:42)
+[2018.11.16-16.14.42:763][521]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.16-16.14.42:778][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014736s)
+[2018.11.16-16.14.42:778][521]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.16-16.14.42:778][521]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2018.11.16-16.14.42:778][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015622s)
+[2018.11.16-16.14.42:806][521]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-16.14.42:822][521]LogInit: FAudioDevice initialized.
+[2018.11.16-16.14.42:850][521]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.16-16.14.42:851][521]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.16-16.14.42
+[2018.11.16-16.14.42:852][521]LogWorld: Bringing up level for play took: 0.001511
+[2018.11.16-16.14.42:865][521]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.583
+[2018.11.16-16.14.42:865][521]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.45:171][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-16.14.45:288][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.45:289][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-16.14.45:323][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-16.14.45:323][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.16-16.14.45:370][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-16.14.45:395][811]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.16-16.16.17:207][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.16-16.37.23:874][465]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-16.47.00:147][738]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.16-16.47.00:294][739]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ITOSG
+[2018.11.16-16.47.00:294][739]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.16-16.47.00:294][739]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2018.11.16-16.47.00:294][739]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.16-16.47.00:294][739]LogTemp: BranchPath = S500-22/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = S500-22/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2018.11.16-16.47.00:338][740]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\l012265h\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.16-16.47.20:999][198]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.16-16.47.21:002][198]LogSlate: Window 'Project Settings' being destroyed
