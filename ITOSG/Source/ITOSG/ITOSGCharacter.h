@@ -24,6 +24,7 @@ public:
 	/** Returns CursorToWorld subobject **/
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
 
+	UPROPERTY(VisibleAnywhere, BlueprintImplementableEvent, Category = Interaction)
 	void InteractWithOverlappingObject();
 
 private:
