@@ -337,3 +337,180 @@ LogInit: Object subsystem initialized
 [2018.11.20-13.47.30:832][  2]LogAssetRegistry: Asset discovery search completed in 6.4944 seconds
 [2018.11.20-13.47.30:833][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2018.11.20-13.47.30:833][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.11.20-13.50.25:825][170]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-13.50.30:617][741]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-13.50.30:623][741]LogAssetEditorManager: Opening Asset editor for Class /Script/ITOSG.NonPlayerCharacter
+[2018.11.20-13.52.55:389][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-13.53.08:407][976]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NPCBlueprint.NPCBlueprint
+[2018.11.20-13.53.08:889][976]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.11.20-13.53.08:913][976]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.11.20-13.53.14:644][312]LogSlate: Window 'NPCBlueprint' being destroyed
+[2018.11.20-13.53.14:741][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-13.53.14:745][312]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NPCBlueprint.NPCBlueprint
+[2018.11.20-13.53.15:084][312]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.20-13.53.20:450][802]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.20-13.53.31:488][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-13.53.42:097][365]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-13.54.08:264][189]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/Interactable.Interactable
+[2018.11.20-13.54.31:082][894]BlueprintLog: New page: Compile Interactable
+[2018.11.20-13.54.31:671][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/Interactable" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset" SILENT=true
+[2018.11.20-13.54.31:686][955]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Interactable840B89264A93B35A5C2BE2A3682D5E1B.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset'
+[2018.11.20-13.54.41:442][123]BlueprintLog: New page: Compile Interactable
+[2018.11.20-13.54.42:071][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/Interactable" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset" SILENT=true
+[2018.11.20-13.54.42:090][192]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/InteractableFB777185465CCC68A8EA1BBF7073374B.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset'
+[2018.11.20-13.54.45:874][637]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-13.54.48:583][952]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-13.54.49:229][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/NPCBlueprint.uasset" SILENT=true
+[2018.11.20-13.54.49:283][  5]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprintAC3FBC9B4B05CD8F5F27CBAA6A56514A.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/NPCBlueprint.uasset'
+[2018.11.20-13.54.53:183][387]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownExampleMap4977ED6A40AD79AEBC371EAA3B81B630.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2018.11.20-13.54.53:224][387]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.604
+[2018.11.20-14.02.44:937][997]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.11.20-14.03.01:051][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/Interactable" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset" SILENT=true
+[2018.11.20-14.03.01:075][737]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Interactable76FDCC9F4D96BF7BA9B7C8AE9EE17EDC.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset'
+[2018.11.20-14.04.52:707][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.030
+[2018.11.20-14.04.52:709][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCBlueprint] ([1] browsable assets)...
+[2018.11.20-14.04.52:723][880]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/NPCBlueprint.NPCBlueprint]
+[2018.11.20-14.04.52:723][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCBlueprint]
+[2018.11.20-14.04.52:723][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.20-14.04.52:762][880]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprint_Auto17913141140D4DF57AA62B2A1950F1617.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto1.uasset'
+[2018.11.20-14.04.52:767][880]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownCPP/Blueprints/Interactable] ([1] browsable assets)...
+[2018.11.20-14.04.52:767][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/Interactable]
+[2018.11.20-14.04.52:782][880]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Interactable_Auto18DA8D4694B3614C2BAA573AA7CB2A6A9.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactable_Auto1.uasset'
+[2018.11.20-14.04.52:785][880]LogFileHelpers: Auto-saving content packages took 0.078
+[2018.11.20-14.05.02:692][ 57]LogSlate: Took 0.013274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.20-14.05.09:210][835]BlueprintLog: New page: Compile Interactable
+[2018.11.20-14.05.09:887][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/Interactable" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset" SILENT=true
+[2018.11.20-14.05.09:906][894]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/InteractableB3402FA3401CA399F12068AA3741304D.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Blueprints/Interactable.uasset'
+[2018.11.20-14.09.16:916][397]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-14.12.57:404][691]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-14.13.21:549][499]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-14.14.05:541][658]BlueprintLog: New page: Compile NPCBlueprint
+[2018.11.20-14.14.06:645][765]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.20-14.14.06:673][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.14.06:673][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-14.14.06:686][765]PIE: New page: PIE session: TopDownExampleMap (20 Nov 2018 14:14:06)
+[2018.11.20-14.14.06:686][765]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.20-14.14.06:707][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020629s)
+[2018.11.20-14.14.06:708][765]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.20-14.14.06:708][765]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2018.11.20-14.14.06:708][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021903s)
+[2018.11.20-14.14.06:747][765]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-14.14.06:763][765]LogInit: FAudioDevice initialized.
+[2018.11.20-14.14.06:812][765]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.20-14.14.06:815][765]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.20-14.14.06
+[2018.11.20-14.14.06:816][765]LogWorld: Bringing up level for play took: 0.002547
+[2018.11.20-14.14.06:844][765]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2018.11.20-14.14.06:846][765]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.566
+[2018.11.20-14.14.06:846][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.14.09:971][122]LogSlate: Window 'Interactable' being destroyed
+[2018.11.20-14.14.09:974][122]LogSlate: Window 'Interactable' being destroyed
+[2018.11.20-14.14.09:975][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-14.16.01:890][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.01:891][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.16.01:926][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-14.16.01:926][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.01:977][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.16.01:996][534]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.20-14.16.03:217][680]LogEditorViewport: Clicking on Actor (LMB): NPCBlueprint_C (NPCBlueprint)
+[2018.11.20-14.16.08:654][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-14.16.08:737][323]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.20-14.16.08:763][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.08:763][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-14.16.08:764][323]PIE: New page: PIE session: TopDownExampleMap (20 Nov 2018 14:16:08)
+[2018.11.20-14.16.08:764][323]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.20-14.16.08:779][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015364s)
+[2018.11.20-14.16.08:780][323]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.20-14.16.08:780][323]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2018.11.20-14.16.08:780][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016380s)
+[2018.11.20-14.16.08:814][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-14.16.08:830][323]LogInit: FAudioDevice initialized.
+[2018.11.20-14.16.08:861][323]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.20-14.16.08:864][323]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.20-14.16.08
+[2018.11.20-14.16.08:864][323]LogWorld: Bringing up level for play took: 0.002355
+[2018.11.20-14.16.08:878][323]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.534
+[2018.11.20-14.16.08:878][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.10:130][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.10:131][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.16.10:166][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-14.16.10:166][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.10:216][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.16.10:235][471]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.20-14.16.11:126][577]LogEditorViewport: Clicking on Actor (LMB): NPCBlueprint_C (NPCBlueprint)
+[2018.11.20-14.16.13:157][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-14.16.13:248][817]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.20-14.16.13:268][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.16.13:268][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-14.16.13:269][817]PIE: New page: PIE session: TopDownExampleMap (20 Nov 2018 14:16:13)
+[2018.11.20-14.16.13:269][817]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.20-14.16.13:281][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012481s)
+[2018.11.20-14.16.13:282][817]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.20-14.16.13:282][817]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2018.11.20-14.16.13:282][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.013747s)
+[2018.11.20-14.16.13:313][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-14.16.13:328][817]LogInit: FAudioDevice initialized.
+[2018.11.20-14.16.13:363][817]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.20-14.16.13:365][817]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.20-14.16.13
+[2018.11.20-14.16.13:366][817]LogWorld: Bringing up level for play took: 0.002211
+[2018.11.20-14.16.13:380][817]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.032
+[2018.11.20-14.16.13:380][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.18.38:456][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.18.38:457][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.18.38:495][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-14.18.38:495][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.18.38:555][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.18.38:573][209]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.20-14.18.45:442][ 31]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.20-14.18.46:073][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.20-14.18.46:353][126]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.11.20-14.18.46:595][144]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.11.20-14.19.06:627][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-14.19.06:811][547]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.11.20-14.19.11:959][964]LogSlate: Window 'TopDownCharacter' being destroyed
+[2018.11.20-14.19.12:040][964]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.11.20-14.19.56:586][ 42]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownExampleMap_Auto22257BEE145478FB739EEDE874886DDA5.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap'
+[2018.11.20-14.19.56:595][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.283
+[2018.11.20-14.19.56:595][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2018.11.20-14.19.56:597][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCBlueprint] ([1] browsable assets)...
+[2018.11.20-14.19.56:627][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/NPCBlueprint.NPCBlueprint]
+[2018.11.20-14.19.56:627][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCBlueprint]
+[2018.11.20-14.19.56:627][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.20-14.19.56:672][ 42]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprint_Auto23A2E3E724229DEC4E62DF887B6D11E8F.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto2.uasset'
+[2018.11.20-14.19.56:675][ 42]LogFileHelpers: Auto-saving content packages took 0.080
+[2018.11.20-14.44.25:721][643]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.20-14.44.25:843][644]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ITOSG
+[2018.11.20-14.44.25:843][644]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.20-14.44.25:843][644]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2018.11.20-14.44.25:843][644]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.20-14.44.25:843][644]LogTemp: BranchPath = S500-15/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = S500-15/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2018.11.20-14.44.25:843][644]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\j016593e\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.20-14.49.41:000][343]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.20-14.49.41:006][343]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.20-14.49.42:829][501]LogSlate: Window 'TopDownCharacter' being destroyed
+[2018.11.20-14.49.42:833][501]LogSlate: Window 'TopDownCharacter' being destroyed
+[2018.11.20-14.49.43:430][563]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.20-14.49.43:456][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.49.43:457][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-14.49.43:457][563]PIE: New page: PIE session: TopDownExampleMap (20 Nov 2018 14:49:43)
+[2018.11.20-14.49.43:457][563]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.20-14.49.43:473][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015833s)
+[2018.11.20-14.49.43:473][563]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.20-14.49.43:474][563]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2018.11.20-14.49.43:474][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016910s)
+[2018.11.20-14.49.43:515][563]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-14.49.43:533][563]LogInit: FAudioDevice initialized.
+[2018.11.20-14.49.43:566][563]LogLoad: Game class is 'ITOSGGameMode'
+[2018.11.20-14.49.43:568][563]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.11.20-14.49.43
+[2018.11.20-14.49.43:569][563]LogWorld: Bringing up level for play took: 0.002232
+[2018.11.20-14.49.43:583][563]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.188
+[2018.11.20-14.49.43:583][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.49.47:321][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-14.49.47:397][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.49.47:397][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.49.47:431][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-14.49.47:431][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.20-14.49.47:463][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-14.49.47:499][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.20-14.50.11:049][700]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownExampleMapFB921614400AC654B123E38E97E74357.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2018.11.20-14.50.11:109][700]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.626
+[2018.11.20-14.50.11:111][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/NPCBlueprint.uasset" SILENT=true
+[2018.11.20-14.50.11:150][700]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprintA763FED14B7DDF8E799115884AB5F5DC.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Content/NPCBlueprint.uasset'
