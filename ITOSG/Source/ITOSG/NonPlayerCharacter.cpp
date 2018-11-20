@@ -32,3 +32,8 @@ void ANonPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 }
 
+void ANonPlayerCharacter::InteractWithObject()
+{
+
+}
+

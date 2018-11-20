@@ -401,21 +401,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG
-/I C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Source
-/I C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Source\ITOSG
+/I C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG
+/I C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Source
+/I C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Source\ITOSG
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Source\ITOSG\NonPlayerCharacter.cpp"
-/FI"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
-/Fo"C:\Users\j016593e\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\NonPlayerCharacter.cpp.obj"
+/FI"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Source\ITOSG\NonPlayerCharacter.cpp"
+/FI"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
+/Fo"C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\NonPlayerCharacter.cpp.obj"
 /TP
 /GR-
 /W4
