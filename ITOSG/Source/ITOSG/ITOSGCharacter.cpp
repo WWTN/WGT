@@ -23,7 +23,7 @@ AITOSGCharacter::AITOSGCharacter()
 	bUseControllerRotationRoll = false;
 	//check(PlayerInputComponent);
 
-	//UInputComponent::BindAction("Interact", IE_Pressed, this, &AITOSGCharacter::InteractWithOverlappingObject);
+	
 
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Rotate character to moving direction
@@ -95,4 +95,10 @@ void AITOSGCharacter::Tick(float DeltaSeconds)
 void AITOSGCharacter::InteractWithOverlappingObject()
 {
 
+}
+
+void AITOSGCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+{
+	check(PlayerInputComponent);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AITOSGCharacter::InteractWithOverlappingObject);
 }
