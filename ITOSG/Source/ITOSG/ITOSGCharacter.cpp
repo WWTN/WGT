@@ -102,3 +102,8 @@ void AITOSGCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AITOSGCharacter::InteractWithOverlappingObject);
 }
+
+void AITOSGCharacter::BeginPlay()
+{
+
+}

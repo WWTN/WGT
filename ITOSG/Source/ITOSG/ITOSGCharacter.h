@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ITOSGCharacter.generated.h"
 
+
+
 UCLASS(Blueprintable)
 class AITOSGCharacter : public ACharacter
 {
@@ -24,9 +26,6 @@ public:
 	/** Returns CursorToWorld subobject **/
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
 
-	UPROPERTY(VisibleAnywhere, BlueprintImplementableEvent, Category = Interaction)
-	void InteractWithOverlappingObject();
-
 private:
 	/** Top down camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -42,6 +41,13 @@ private:
 
 protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+
+	virtual void BeginPlay();
+
+public:
+
+	
+		void InteractWithOverlappingObject();
 
 
 	

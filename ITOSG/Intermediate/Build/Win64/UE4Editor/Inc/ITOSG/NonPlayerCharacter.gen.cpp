@@ -17,9 +17,38 @@ void EmptyLinkFunctionForGeneratedCodeNonPlayerCharacter() {}
 	ITOSG_API UClass* Z_Construct_UClass_ANonPlayerCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ITOSG();
+	ITOSG_API UFunction* Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject();
 // End Cross Module References
 	void ANonPlayerCharacter::StaticRegisterNativesANonPlayerCharacter()
 	{
+		UClass* Class = ANonPlayerCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "InteractWithObject", &ANonPlayerCharacter::execInteractWithObject },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics::Function_MetaDataParams[] = {
+		{ "Category", "My Functions" },
+		{ "ModuleRelativePath", "NonPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANonPlayerCharacter, "InteractWithObject", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ANonPlayerCharacter_NoRegister()
 	{
@@ -28,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeNonPlayerCharacter() {}
 	struct Z_Construct_UClass_ANonPlayerCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +67,9 @@ void EmptyLinkFunctionForGeneratedCodeNonPlayerCharacter() {}
 	UObject* (*const Z_Construct_UClass_ANonPlayerCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_ITOSG,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ANonPlayerCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ANonPlayerCharacter_InteractWithObject, "InteractWithObject" }, // 2222345851
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANonPlayerCharacter_Statics::Class_MetaDataParams[] = {
@@ -52,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeNonPlayerCharacter() {}
 		&ANonPlayerCharacter::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -68,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeNonPlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANonPlayerCharacter, 712527873);
+	IMPLEMENT_CLASS(ANonPlayerCharacter, 1869873745);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANonPlayerCharacter(Z_Construct_UClass_ANonPlayerCharacter, &ANonPlayerCharacter::StaticClass, TEXT("/Script/ITOSG"), TEXT("ANonPlayerCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANonPlayerCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

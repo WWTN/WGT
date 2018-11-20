@@ -1,4 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
-  Deploying ITOSGEditor Win64 Development...
-  Total build time: 2.48 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for ITOSGEditor
+    Running UnrealHeaderTool "C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\ITOSG.uproject" "C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ITOSGEditor in 23.6428159 seconds
+  Building 7 actions with 4 processes...
+    [1/7] ITOSG.init.gen.cpp
+    [2/7] ITOSGGameMode.cpp
+    [3/7] ITOSGCharacter.cpp
+    [4/7] ITOSGPlayerController.cpp
+    [5/7] ITOSGCharacter.gen.cpp
+    [6/7] UE4Editor-ITOSG.lib
+       Creating library C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.lib and object C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.exp
+    [7/7] UE4Editor-ITOSG.dll
+       Creating library C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.lib and object C:\Users\j016593e\Documents\GitHub\WGTv2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.exp
+  Total build time: 100.28 seconds (Parallel executor: 72.75 seconds)

@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ITOSG_NonPlayerCharacter_generated_h
 
-#define ITOSG_Source_ITOSG_NonPlayerCharacter_h_12_RPC_WRAPPERS
-#define ITOSG_Source_ITOSG_NonPlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ITOSG_Source_ITOSG_NonPlayerCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execInteractWithObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InteractWithObject(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ITOSG_Source_ITOSG_NonPlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInteractWithObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InteractWithObject(); \
+		P_NATIVE_END; \
+	}
+
+
 #define ITOSG_Source_ITOSG_NonPlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANonPlayerCharacter(); \

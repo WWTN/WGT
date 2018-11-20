@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{450BFE07-F5F9-4C5E-B464-E568C2897475}</ProjectGuid>
+		<ProjectGuid>{93ADD0BA-D8C4-43D3-9BA3-7300833795CB}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ITOSG</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
