@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeITOSG_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ITOSG",
 				PKG_CompiledIn | 0x00000000,
-				0x23E96CC2,
-				0x42B4182A,
+				0xD151C873,
+				0x13C2A052,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

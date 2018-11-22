@@ -1,70 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\ITOSG.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{C60C6330-3331-4A02-8D14-4536B75A4830}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\ITOSG.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\ITOSGEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{A69D9C2E-E5F1-49B3-BE44-1DEB253E20AA}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\ITOSG">
-			<UniqueIdentifier>{6B417B0A-7C50-405D-A54F-DFAB620F8642}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\ITOSG\GameplayGamemode.cpp">
-			<Filter>Source\ITOSG</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ITOSG\GameplayGamemode.h">
-			<Filter>Source\ITOSG</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\ITOSG\ITOSG.Build.cs">
-			<Filter>Source\ITOSG</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\ITOSG\ITOSG.cpp">
-			<Filter>Source\ITOSG</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ITOSG\ITOSG.h">
-			<Filter>Source\ITOSG</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ITOSG\ITOSGCharacter.cpp">
-			<Filter>Source\ITOSG</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ITOSG\ITOSGCharacter.h">
-			<Filter>Source\ITOSG</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ITOSG\ITOSGGameMode.cpp">
-			<Filter>Source\ITOSG</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ITOSG\ITOSGGameMode.h">
-			<Filter>Source\ITOSG</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ITOSG\ITOSGPlayerController.cpp">
-			<Filter>Source\ITOSG</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ITOSG\ITOSGPlayerController.h">
-			<Filter>Source\ITOSG</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ITOSG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C60C6330-3331-4A02-8D14-4536B75A4830}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ITOSG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ITOSGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A69D9C2E-E5F1-49B3-BE44-1DEB253E20AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ITOSG">
+      <UniqueIdentifier>{6B417B0A-7C50-405D-A54F-DFAB620F8642}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ITOSG\GameplayGamemode.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ITOSG\GameplayGamemode.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ITOSG\ITOSG.Build.cs">
+      <Filter>Source\ITOSG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ITOSG\ITOSG.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ITOSG\ITOSG.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ITOSG\ITOSGCharacter.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ITOSG\ITOSGCharacter.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ITOSG\ITOSGGameMode.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ITOSG\ITOSGGameMode.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ITOSG\ITOSGPlayerController.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ITOSG\ITOSGPlayerController.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ITOSG\Interactable.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ITOSG\GameplayController.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ITOSG\PIckup.h">
+      <Filter>Source\ITOSG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ITOSG\Interactable.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ITOSG\GameplayController.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ITOSG\PIckup.cpp">
+      <Filter>Source\ITOSG</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
