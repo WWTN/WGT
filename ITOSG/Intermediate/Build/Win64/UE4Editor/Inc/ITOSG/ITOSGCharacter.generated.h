@@ -13,9 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ITOSG_ITOSGCharacter_generated_h
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_RPC_WRAPPERS
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_16_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FInventoryItem_Statics; \
+	ITOSG_API static class UScriptStruct* StaticStruct(); \
+	typedef FTableRowBase Super;
+
+
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_RPC_WRAPPERS
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_RPC_WRAPPERS_NO_PURE_DECLS
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAITOSGCharacter(); \
 	friend struct Z_Construct_UClass_AITOSGCharacter_Statics; \
@@ -24,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(AITOSGCharacter)
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_INCLASS \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_INCLASS \
 private: \
 	static void StaticRegisterNativesAITOSGCharacter(); \
 	friend struct Z_Construct_UClass_AITOSGCharacter_Statics; \
@@ -33,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(AITOSGCharacter)
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AITOSGCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AITOSGCharacter) \
@@ -46,7 +52,7 @@ private: \
 public:
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AITOSGCharacter(AITOSGCharacter&&); \
@@ -57,31 +63,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AITOSGCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AITOSGCharacter)
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TopDownCameraComponent() { return STRUCT_OFFSET(AITOSGCharacter, TopDownCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AITOSGCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(AITOSGCharacter, CursorToWorld); }
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_9_PROLOG
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_GENERATED_BODY_LEGACY \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_46_PROLOG
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_RPC_WRAPPERS \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_INCLASS \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_STANDARD_CONSTRUCTORS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_PRIVATE_PROPERTY_OFFSET \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_RPC_WRAPPERS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_INCLASS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ITOSG_Source_ITOSG_ITOSGCharacter_h_12_GENERATED_BODY \
+#define ITOSG_Source_ITOSG_ITOSGCharacter_h_49_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	ITOSG_Source_ITOSG_ITOSGCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_PRIVATE_PROPERTY_OFFSET \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_INCLASS_NO_PURE_DECLS \
+	ITOSG_Source_ITOSG_ITOSGCharacter_h_49_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

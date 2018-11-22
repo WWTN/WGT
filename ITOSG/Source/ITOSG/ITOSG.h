@@ -5,3 +5,5 @@
 #include "CoreMinimal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogITOSG, Log, All);
+
+#define COLLISION_INTERACTABLE ECC_GameTraceChannel1;

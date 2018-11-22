@@ -11,6 +11,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "Interactable.h"
 
 AITOSGCharacter::AITOSGCharacter()
 {
@@ -87,4 +88,9 @@ void AITOSGCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
 	}
+}
+
+void AITOSGCharacter::CheckForInteractables()
+{
+	
 }
