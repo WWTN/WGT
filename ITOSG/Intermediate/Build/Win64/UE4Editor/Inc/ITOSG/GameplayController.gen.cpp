@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGameplayController() {}
 	ITOSG_API UClass* Z_Construct_UClass_AGameplayController();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_ITOSG();
+	ITOSG_API UClass* Z_Construct_UClass_AInteractable_NoRegister();
 // End Cross Module References
 	void AGameplayController::StaticRegisterNativesAGameplayController()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeGameplayController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentInteractable_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentInteractable;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeGameplayController() {}
 		{ "ModuleRelativePath", "GameplayController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameplayController_Statics::NewProp_CurrentInteractable_MetaData[] = {
+		{ "Category", "GameplayController" },
+		{ "ModuleRelativePath", "GameplayController.h" },
+		{ "ToolTip", "The interactable that the player is currently looking at. This will be equal to nullptr if the player is not looking at something that is interactable." },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameplayController_Statics::NewProp_CurrentInteractable = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentInteractable", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020005, 1, nullptr, STRUCT_OFFSET(AGameplayController, CurrentInteractable), Z_Construct_UClass_AInteractable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameplayController_Statics::NewProp_CurrentInteractable_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGameplayController_Statics::NewProp_CurrentInteractable_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGameplayController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameplayController_Statics::NewProp_CurrentInteractable,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGameplayController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGameplayController>::IsAbstract,
 	};
@@ -53,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeGameplayController() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009002A4u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_AGameplayController_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AGameplayController_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -68,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeGameplayController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameplayController, 2051736204);
+	IMPLEMENT_CLASS(AGameplayController, 748242589);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGameplayController(Z_Construct_UClass_AGameplayController, &AGameplayController::StaticClass, TEXT("/Script/ITOSG"), TEXT("AGameplayController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGameplayController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

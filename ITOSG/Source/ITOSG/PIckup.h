@@ -10,11 +10,20 @@
  * 
  */
 UCLASS()
-class ITOSG_API APIckup : public AInteractable
+class ITOSG_API APickup : public AInteractable
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+
+	APickup();
+
+protected:
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* PickupMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ItemID;
 	
 };

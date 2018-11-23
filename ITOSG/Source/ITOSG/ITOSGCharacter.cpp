@@ -10,8 +10,9 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
-#include "Engine/World.h"
 #include "Interactable.h"
+#include "GameplayController.h"
+#include "Engine/World.h"
 
 AITOSGCharacter::AITOSGCharacter()
 {
@@ -88,9 +89,34 @@ void AITOSGCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
 	}
+
+	CheckForInteractables();
 }
+
 
 void AITOSGCharacter::CheckForInteractables()
 {
-	
+	FHitResult HitResult;
+
+	FVector StartTrace = CameraBoom->GetComponentLocation(); //FollowCamera
+	FVector EndTrace = (TopDownCameraComponent->GetForwardVector() * 300) + StartTrace;
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this);
+
+	AGameplayController* Controller = Cast<AGameplayController>(GetController());
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, QueryParams) && Controller)
+	{
+		//Check if the item we hit was an interactable item
+		if (AInteractable* Interactable = Cast<AInteractable>(HitResult.GetActor()))
+		{
+			Controller->CurrentInteractable = Interactable;
+			return;
+		}
+	}
+
+	//If we didn't hit anything, or the thing we hit was not an interactable, set the currentinteractable to nullptr
+	Controller->CurrentInteractable = nullptr;
+
 }

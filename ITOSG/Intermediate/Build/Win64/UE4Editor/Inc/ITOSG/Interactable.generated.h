@@ -8,13 +8,42 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APlayerController;
 #ifdef ITOSG_Interactable_generated_h
 #error "Interactable.generated.h already included, missing '#pragma once' in Interactable.h"
 #endif
 #define ITOSG_Interactable_generated_h
 
-#define ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS
-#define ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUseText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetUseText(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUseText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetUseText(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ITOSG_Source_ITOSG_Interactable_h_12_EVENT_PARMS \
+	struct Interactable_eventInteract_Parms \
+	{ \
+		APlayerController* Controller; \
+	};
+
+
+#define ITOSG_Source_ITOSG_Interactable_h_12_CALLBACK_WRAPPERS
 #define ITOSG_Source_ITOSG_Interactable_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInteractable(); \
@@ -58,12 +87,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AInteractable); \
 
 
 #define ITOSG_Source_ITOSG_Interactable_h_12_PRIVATE_PROPERTY_OFFSET
-#define ITOSG_Source_ITOSG_Interactable_h_9_PROLOG
+#define ITOSG_Source_ITOSG_Interactable_h_9_PROLOG \
+	ITOSG_Source_ITOSG_Interactable_h_12_EVENT_PARMS
+
+
 #define ITOSG_Source_ITOSG_Interactable_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ITOSG_Source_ITOSG_Interactable_h_12_PRIVATE_PROPERTY_OFFSET \
 	ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS \
+	ITOSG_Source_ITOSG_Interactable_h_12_CALLBACK_WRAPPERS \
 	ITOSG_Source_ITOSG_Interactable_h_12_INCLASS \
 	ITOSG_Source_ITOSG_Interactable_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +108,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ITOSG_Source_ITOSG_Interactable_h_12_PRIVATE_PROPERTY_OFFSET \
 	ITOSG_Source_ITOSG_Interactable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	ITOSG_Source_ITOSG_Interactable_h_12_CALLBACK_WRAPPERS \
 	ITOSG_Source_ITOSG_Interactable_h_12_INCLASS_NO_PURE_DECLS \
 	ITOSG_Source_ITOSG_Interactable_h_12_ENHANCED_CONSTRUCTORS \
 private: \

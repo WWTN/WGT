@@ -1,20 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading ITOSGEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.15.26726 toolchain (D:\Visual Studio Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for ITOSGEditor
-    Running UnrealHeaderTool "D:\WGT2\ITOSG\ITOSG.uproject" "D:\WGT2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ITOSGEditor in 7.3123659 seconds
-  Building 8 actions with 8 processes...
-    [1/8] ITOSG.init.gen.cpp
-    [2/8] ITOSG.cpp
-    [3/8] ITOSGCharacter.cpp
-    [4/8] ITOSGGameMode.cpp
-    [5/8] ITOSGCharacter.gen.cpp
-    [6/8] ITOSGPlayerController.cpp
-    [7/8] UE4Editor-ITOSG-4905.lib
-       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-4905.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-4905.exp
-    [8/8] UE4Editor-ITOSG-4905.dll
-       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-4905.suppressed.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-4905.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\ITOSG.uproject" "C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ITOSGEditor in 12.061464 seconds
+  Building 6 actions with 4 processes...
+    [1/6] ITOSGCharacter.gen.cpp
+    [2/6] ITOSGGameMode.cpp
+    [3/6] ITOSGPlayerController.cpp
+    [4/6] ITOSGCharacter.cpp
+    [5/6] UE4Editor-ITOSG-3249.lib
+       Creating library C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.lib and object C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.exp
+    [6/6] UE4Editor-ITOSG-3249.dll
+       Creating library C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.suppressed.lib and object C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.suppressed.exp
   Deploying ITOSGEditor Win64 Development...
-  Total build time: 88.14 seconds (Parallel executor: 76.56 seconds)
+  Total build time: 18.94 seconds (Parallel executor: 3.74 seconds)

@@ -18,7 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTableRowBase();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ITOSG_API UClass* Z_Construct_UClass_APIckup_NoRegister();
+	ITOSG_API UClass* Z_Construct_UClass_APickup_NoRegister();
+	ITOSG_API UScriptStruct* Z_Construct_UScriptStruct_FCraftingInfo();
 	ITOSG_API UClass* Z_Construct_UClass_AITOSGCharacter_NoRegister();
 	ITOSG_API UClass* Z_Construct_UClass_AITOSGCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
@@ -148,7 +149,7 @@ static struct FScriptStruct_ITOSG_StaticRegisterNativesFInventoryItem
 		{ "ModuleRelativePath", "ITOSGCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup = { UE4CodeGen_Private::EPropertyClass::Class, "ItemPickup", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(FInventoryItem, ItemPickup), Z_Construct_UClass_APIckup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup = { UE4CodeGen_Private::EPropertyClass::Class, "ItemPickup", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(FInventoryItem, ItemPickup), Z_Construct_UClass_APickup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemPickup_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInventoryItem_Statics::NewProp_ItemID_MetaData[] = {
 		{ "Category", "InventoryItem" },
@@ -193,7 +194,133 @@ static struct FScriptStruct_ITOSG_StaticRegisterNativesFInventoryItem
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FInventoryItem_CRC() { return 2008793874U; }
+	uint32 Get_Z_Construct_UScriptStruct_FInventoryItem_CRC() { return 324495920U; }
+class UScriptStruct* FCraftingInfo::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern ITOSG_API uint32 Get_Z_Construct_UScriptStruct_FCraftingInfo_CRC();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FCraftingInfo, Z_Construct_UPackage__Script_ITOSG(), TEXT("CraftingInfo"), sizeof(FCraftingInfo), Get_Z_Construct_UScriptStruct_FCraftingInfo_CRC());
+	}
+	return Singleton;
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FCraftingInfo(FCraftingInfo::StaticStruct, TEXT("/Script/ITOSG"), TEXT("CraftingInfo"), false, nullptr, nullptr);
+static struct FScriptStruct_ITOSG_StaticRegisterNativesFCraftingInfo
+{
+	FScriptStruct_ITOSG_StaticRegisterNativesFCraftingInfo()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("CraftingInfo")),new UScriptStruct::TCppStructOps<FCraftingInfo>);
+	}
+} ScriptStruct_ITOSG_StaticRegisterNativesFCraftingInfo;
+	struct Z_Construct_UScriptStruct_FCraftingInfo_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bDestroyItemB_MetaData[];
+#endif
+		static void NewProp_bDestroyItemB_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bDestroyItemB;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bDestroyItemA_MetaData[];
+#endif
+		static void NewProp_bDestroyItemA_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bDestroyItemA;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProductID_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ProductID;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ComponentID_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ComponentID;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCraftingInfo_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+		{ "ToolTip", "Crafting items - might not need this" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCraftingInfo>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB_MetaData[] = {
+		{ "Category", "CraftingInfo" },
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB_SetBit(void* Obj)
+	{
+		((FCraftingInfo*)Obj)->bDestroyItemB = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB = { UE4CodeGen_Private::EPropertyClass::Bool, "bDestroyItemB", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FCraftingInfo), &Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA_MetaData[] = {
+		{ "Category", "CraftingInfo" },
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA_SetBit(void* Obj)
+	{
+		((FCraftingInfo*)Obj)->bDestroyItemA = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA = { UE4CodeGen_Private::EPropertyClass::Bool, "bDestroyItemA", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FCraftingInfo), &Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ProductID_MetaData[] = {
+		{ "Category", "CraftingInfo" },
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ProductID = { UE4CodeGen_Private::EPropertyClass::Name, "ProductID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FCraftingInfo, ProductID), METADATA_PARAMS(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ProductID_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ProductID_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ComponentID_MetaData[] = {
+		{ "Category", "CraftingInfo" },
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ComponentID = { UE4CodeGen_Private::EPropertyClass::Name, "ComponentID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FCraftingInfo, ComponentID), METADATA_PARAMS(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ComponentID_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ComponentID_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCraftingInfo_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemB,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_bDestroyItemA,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ProductID,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCraftingInfo_Statics::NewProp_ComponentID,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FCraftingInfo_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_ITOSG,
+		Z_Construct_UScriptStruct_FTableRowBase,
+		&NewStructOps,
+		"CraftingInfo",
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		sizeof(FCraftingInfo),
+		alignof(FCraftingInfo),
+		Z_Construct_UScriptStruct_FCraftingInfo_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::PropPointers),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FCraftingInfo_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FCraftingInfo_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FCraftingInfo()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FCraftingInfo_CRC();
+		UPackage* Outer = Z_Construct_UPackage__Script_ITOSG();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("CraftingInfo"), sizeof(FCraftingInfo), Get_Z_Construct_UScriptStruct_FCraftingInfo_CRC(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FCraftingInfo_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FCraftingInfo_CRC() { return 1776585669U; }
 	void AITOSGCharacter::StaticRegisterNativesAITOSGCharacter()
 	{
 	}

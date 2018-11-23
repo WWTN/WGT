@@ -8,12 +8,41 @@
 #include "ITOSGCharacter.generated.h"
 
 
+//Crafting items - might not need this
+USTRUCT(BlueprintType)
+struct FCraftingInfo : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ComponentID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ProductID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemA;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemB;
+};
+
+
 USTRUCT(BlueprintType)
 struct FInventoryItem : public FTableRowBase
 {
 	GENERATED_BODY()
 
 public: 
+
+	FInventoryItem()
+	{
+		Name = FText::FromString("Item");
+		Action = FText::FromString("Use");
+		Description = FText::FromString("Please enter a description for this item");
+		Value = 10;
+	}
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName ItemID;
@@ -36,8 +65,23 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FText Description;
 
+	//might not need this
+	TArray<FCraftingInfo> CraftCombinations;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bCanBeUsed;
+
+	bool operator==(const FInventoryItem& Item) const
+	{
+		if (ItemID == Item.ItemID)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 
 };
 
@@ -49,8 +93,7 @@ class AITOSGCharacter : public ACharacter
 public:
 	AITOSGCharacter();
 
-	// Called every frame.
-	virtual void Tick(float DeltaSeconds) override;
+	virtual void Tick(float DeltaTime) override;
 
 	/** Returns TopDownCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }
@@ -74,6 +117,7 @@ private:
 
 protected:
 	
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	void CheckForInteractables();
 
 };
