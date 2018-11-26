@@ -400,21 +400,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG
-/I D:\WGT2\ITOSG\Source
-/I D:\WGT2\ITOSG\Source\ITOSG
-/I "D:\Visual Studio Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source
+/I C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSG
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\WGT2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\WGT2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\WGT2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG\Interactable.gen.cpp"
-/FI"D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
-/Fo"D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Interactable.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
+/FI"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG\Interactable.gen.cpp"
+/FI"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
+/Fo"C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Interactable.gen.cpp.obj"
 /TP
 /GR-
 /W4

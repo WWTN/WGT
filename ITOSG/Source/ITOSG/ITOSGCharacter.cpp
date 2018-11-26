@@ -98,7 +98,7 @@ void AITOSGCharacter::CheckForInteractables()
 {
 	FHitResult HitResult;
 
-	FVector StartTrace = CameraBoom->GetComponentLocation(); //FollowCamera
+	FVector StartTrace = TopDownCameraComponent->GetComponentLocation(); //FollowCamera
 	FVector EndTrace = (TopDownCameraComponent->GetForwardVector() * 300) + StartTrace;
 
 	FCollisionQueryParams QueryParams;

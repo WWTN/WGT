@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ITOSG-855.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ITOSG-4354.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ITOSG-855.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ITOSG-4354.pdb",
 			"Type": "SymbolFile"
 		},
 		{

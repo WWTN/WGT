@@ -1,16 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Parsing headers for ITOSGEditor
-    Running UnrealHeaderTool "C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\ITOSG.uproject" "C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ITOSGEditor in 12.061464 seconds
-  Building 6 actions with 4 processes...
-    [1/6] ITOSGCharacter.gen.cpp
-    [2/6] ITOSGGameMode.cpp
-    [3/6] ITOSGPlayerController.cpp
-    [4/6] ITOSGCharacter.cpp
-    [5/6] UE4Editor-ITOSG-3249.lib
-       Creating library C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.lib and object C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.exp
-    [6/6] UE4Editor-ITOSG-3249.dll
-       Creating library C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.suppressed.lib and object C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3249.suppressed.exp
+  Building 3 actions with 8 processes...
+    [1/3] ITOSGCharacter.cpp
+    [2/3] UE4Editor-ITOSG-3847.lib
+       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3847.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3847.exp
+    [3/3] UE4Editor-ITOSG-3847.dll
+       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3847.suppressed.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-3847.suppressed.exp
   Deploying ITOSGEditor Win64 Development...
-  Total build time: 18.94 seconds (Parallel executor: 3.74 seconds)
+  Total build time: 2.53 seconds (Parallel executor: 1.73 seconds)
