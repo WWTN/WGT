@@ -380,3 +380,67 @@ LogInit: Object subsystem initialized
 [2018.11.27-14.23.01:937][816]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
 [2018.11.27-14.23.02:021][816]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2578 classes and 607 folders.
 [2018.11.27-14.23.02:029][816]Display: HotReload took  0.2s.
+[2018.11.27-14.39.23:587][989]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NPCBlueprint.NPCBlueprint
+[2018.11.27-14.39.24:317][989]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.11.27-14.39.24:722][989]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.11.27-14.39.25:693][989]LogSlate: Took 0.005882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.27-14.39.40:269][453]LogSlate: Took 0.017776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.27-14.40.46:046][ 25]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.11.27-14.41.23:603][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.037
+[2018.11.27-14.41.23:638][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCBlueprint] ([1] browsable assets)...
+[2018.11.27-14.41.23:695][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/NPCBlueprint.NPCBlueprint]
+[2018.11.27-14.41.23:695][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCBlueprint]
+[2018.11.27-14.41.23:695][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.27-14.41.23:884][287]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprint_Auto1DB9A748046246AC757B09A93B2A519FC.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto1.uasset'
+[2018.11.27-14.41.23:904][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.11.27-14.41.23:930][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.11.27-14.41.23:930][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/TopDownCharacter]
+[2018.11.27-14.41.24:025][287]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownCharacter_Auto1E06770494AC0383BAE18FDA0A0CDD9DB.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Blueprints/TopDownCharacter_Auto1.uasset'
+[2018.11.27-14.41.24:033][287]LogFileHelpers: Auto-saving content packages took 0.430
+[2018.11.27-14.46.30:303][250]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.27-14.46.30:332][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.27-14.46.30:332][250]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.27-14.46.30:334][250]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2018.11.27-14.46.30:344][250]LogBlueprint: Error: [Compiler TopDownCharacter] The type of  Object  is undetermined.  Connect something to  Cast To Interactable  to imply a specific type.
+[2018.11.27-14.46.30:344][250]LogBlueprint: Error: [Compiler TopDownCharacter] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.11.27-14.46.30:347][250]LogBlueprint: Warning: [Compiler TopDownCharacter] [2623.88] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 13 ms] (/Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.11.27-14.46.30:509][250]LogPlayLevel: [PlayLevel] Compiling NPCBlueprint before play...
+[2018.11.27-14.46.30:697][250]LogPlayLevel: PlayLevel: Blueprint regeneration took 364 ms (2 blueprints)
+[2018.11.27-14.46.30:697][250]BlueprintLog: Blueprint TopDownCharacter failed to compile
+[2018.11.27-14.46.32:850][250]LogSlate: Window 'Message' being destroyed
+[2018.11.27-14.51.33:938][778]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownExampleMap_Auto2854AD6BE4B42F859DD3BAE85BA6205BF.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap'
+[2018.11.27-14.51.33:969][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.406
+[2018.11.27-14.51.33:969][778]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.406
+[2018.11.27-14.51.33:973][778]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCBlueprint] ([1] browsable assets)...
+[2018.11.27-14.51.34:008][778]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/NPCBlueprint.NPCBlueprint]
+[2018.11.27-14.51.34:008][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCBlueprint]
+[2018.11.27-14.51.34:008][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCBlueprint" FILE="../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.27-14.51.34:070][778]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/NPCBlueprint_Auto2868CCCB749BEAF34DDEC46908A109D96.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/NPCBlueprint_Auto2.uasset'
+[2018.11.27-14.51.34:076][778]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.11.27-14.51.34:106][778]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.11.27-14.51.34:106][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/TopDownCharacter]
+[2018.11.27-14.51.34:161][778]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownCharacter_Auto225BC9C174E818CB6546F2EA17BD34AD4.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2018.11.27-14.51.34:165][778]LogFileHelpers: Auto-saving content packages took 0.194
+[2018.11.27-14.55.17:221][432]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-14.55.17:821][483]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.17:821][483]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.17:821][483]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.18:632][544]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.18:632][544]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.18:632][544]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.27-14.55.18:643][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-14.59.49:979][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-15.01.34:530][538]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.057
+[2018.11.27-15.01.34:532][538]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.11.27-15.01.34:563][538]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.11.27-15.01.34:563][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/TopDownCharacter]
+[2018.11.27-15.01.34:614][538]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownCharacter_Auto39A5890A74833EEF7EC29DD892A0C3715.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Blueprints/TopDownCharacter_Auto3.uasset'
+[2018.11.27-15.01.34:618][538]LogFileHelpers: Auto-saving content packages took 0.087
+[2018.11.27-15.07.17:752][934]BlueprintLog: New page: Compile TopDownCharacter
+[2018.11.27-15.10.25:117][752]BlueprintLog: New page: Compile TopDownCharacter
+[2018.11.27-15.11.34:928][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.051
+[2018.11.27-15.11.34:930][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.11.27-15.11.34:961][473]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.11.27-15.11.34:961][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/TopDownCharacter]
+[2018.11.27-15.11.35:020][473]LogSavePackage: Moving '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/TopDownCharacter_Auto4634132D046B85ADFF4B74BBE57EAF105.tmp' to '../../../../../../Users/j016593e/Documents/GitHub/WGTv2/ITOSG/Saved/Autosaves/Game/TopDownCPP/Blueprints/TopDownCharacter_Auto4.uasset'
+[2018.11.27-15.11.35:023][473]LogFileHelpers: Auto-saving content packages took 0.094
