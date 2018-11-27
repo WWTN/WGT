@@ -94,8 +94,12 @@ void AITOSGCharacter::Tick(float DeltaSeconds)
 
 void AITOSGCharacter::InteractWithOverlappingObject()
 {
-
+		InteractWithOverlappingBP();
 }
+
+
+
+	/*	*/
 
 void AITOSGCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {

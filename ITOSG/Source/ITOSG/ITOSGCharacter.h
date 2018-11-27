@@ -49,7 +49,8 @@ public:
 	
 		void InteractWithOverlappingObject();
 
-
+		UFUNCTION(BlueprintImplementableEvent)
+			void InteractWithOverlappingBP();
 	
 };
 

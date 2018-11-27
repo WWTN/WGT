@@ -17,12 +17,40 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 	ITOSG_API UClass* Z_Construct_UClass_AITOSGCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ITOSG();
+	ITOSG_API UFunction* Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP();
 	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AITOSGCharacter_InteractWithOverlappingBP = FName(TEXT("InteractWithOverlappingBP"));
+	void AITOSGCharacter::InteractWithOverlappingBP()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AITOSGCharacter_InteractWithOverlappingBP),NULL);
+	}
 	void AITOSGCharacter::StaticRegisterNativesAITOSGCharacter()
 	{
+	}
+	struct Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ITOSGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AITOSGCharacter, "InteractWithOverlappingBP", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AITOSGCharacter_NoRegister()
 	{
@@ -31,6 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 	struct Z_Construct_UClass_AITOSGCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -53,6 +82,9 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 	UObject* (*const Z_Construct_UClass_AITOSGCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_ITOSG,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AITOSGCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AITOSGCharacter_InteractWithOverlappingBP, "InteractWithOverlappingBP" }, // 2695080318
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AITOSGCharacter_Statics::Class_MetaDataParams[] = {
@@ -105,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 		&AITOSGCharacter::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x008000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AITOSGCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AITOSGCharacter_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -121,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeITOSGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AITOSGCharacter, 2372194032);
+	IMPLEMENT_CLASS(AITOSGCharacter, 328747937);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AITOSGCharacter(Z_Construct_UClass_AITOSGCharacter, &AITOSGCharacter::StaticClass, TEXT("/Script/ITOSG"), TEXT("AITOSGCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AITOSGCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
