@@ -3,6 +3,7 @@
 #include "GameplayController.h"
 #include "Interactable.h"
 #include "GameplayGamemode.h"
+#include "ITOSGCharacter.h"
 #include "ITOSG.h"
 
 void AGameplayController::SetupInputComponent()
@@ -19,14 +20,11 @@ void AGameplayController::Interact()
 	{
 		CurrentInteractable->Interact(this);
 	}
-
-
-
 }
 
 void AGameplayController::AddItemToInventoryByID(FName ID)
 {
-	AGameplayGameMode* GameMode = Cast< AGameplayGameMode>(GetWorld()->GetAuthGameMode());
+	AGameplayGameMode* GameMode = Cast<AGameplayGameMode>(GetWorld()->GetAuthGameMode());
 
 	UDataTable* ItemTable = GameMode->GetItemDB();
 
