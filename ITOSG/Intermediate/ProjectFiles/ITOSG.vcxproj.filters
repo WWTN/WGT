@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ITOSG.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{5C8F8E3B-AC76-47D1-B161-1F77C43ED9B3}</UniqueIdentifier>
+			<UniqueIdentifier>{DE8F5B4A-720A-4F65-BCFE-49AFAAE8CF53}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ITOSG.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CE72A44F-1A54-46CC-9156-7E476D95E67A}</UniqueIdentifier>
+			<UniqueIdentifier>{DA7E4417-9D93-47C5-A34E-8CD780DF518C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ITOSG">
-			<UniqueIdentifier>{E930CC36-CBA5-4F1C-9185-CC321D34A32C}</UniqueIdentifier>
+			<UniqueIdentifier>{DFDC67B3-6F9B-4076-B699-6FE64BF05937}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\ITOSG\GameplayController.cpp">
 			<Filter>Source\ITOSG</Filter>
