@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "ITOSGCharacter.h"
+#include "GameplayGamemode.h"
 #include "GameplayController.generated.h"
 
 /**
@@ -26,6 +27,11 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	TArray<FInventoryItem> Inventory;
+
+	//AGameMode* AGameplayGameMode;
+	//AGameplayGameMode* AGameplayGamemode;
+
+	AGameplayGamemode* _gameplayGamemode = nullptr;
 
 protected: 
 

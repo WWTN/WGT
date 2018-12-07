@@ -106,17 +106,21 @@ void AITOSGCharacter::CheckForInteractables()
 
 	AGameplayController* Controller = Cast<AGameplayController>(GetController());
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, QueryParams) && Controller)
+	if (Controller != nullptr)
 	{
-		//Check if the item we hit was an interactable item
-		if (AInteractable* Interactable = Cast<AInteractable>(HitResult.GetActor()))
+		if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, QueryParams) && Controller)
 		{
-			Controller->CurrentInteractable = Interactable;
-			return;
+			//Check if the item we hit was an interactable item
+			if (AInteractable* Interactable = Cast<AInteractable>(HitResult.GetActor()))
+			{
+				Controller->CurrentInteractable = Interactable;
+				return;
+			}
 		}
+
+		//If we didn't hit anything, or the thing we hit was not an interactable, set the currentinteractable to nullptr
+		Controller->CurrentInteractable = nullptr;
 	}
 
-	//If we didn't hit anything, or the thing we hit was not an interactable, set the currentinteractable to nullptr
-	Controller->CurrentInteractable = nullptr;
 
 }

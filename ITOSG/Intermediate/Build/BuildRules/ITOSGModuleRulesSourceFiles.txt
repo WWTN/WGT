@@ -1,3 +1,3 @@
-D:\WGT2\ITOSG\Source\ITOSG\ITOSG.Build.cs
-D:\WGT2\ITOSG\Source\ITOSG.Target.cs
-D:\WGT2\ITOSG\Source\ITOSGEditor.Target.cs
+C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSG\ITOSG.Build.cs
+C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSG.Target.cs
+C:\Users\l012265h\Documents\GitHub\WGT\ITOSG\Source\ITOSGEditor.Target.cs

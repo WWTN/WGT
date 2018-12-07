@@ -4,6 +4,7 @@
 #include "Interactable.h"
 #include "GameplayGamemode.h"
 #include "ITOSGCharacter.h"
+#include "Engine/World.h"
 #include "ITOSG.h"
 
 void AGameplayController::SetupInputComponent()
@@ -24,14 +25,19 @@ void AGameplayController::Interact()
 
 void AGameplayController::AddItemToInventoryByID(FName ID)
 {
-	AGameplayGameMode* GameMode = Cast<AGameplayGameMode>(GetWorld()->GetAuthGameMode());
+	_gameplayGamemode = Cast<AGameplayGamemode>(GetWorld()->GetAuthGameMode());
 
-	UDataTable* ItemTable = GameMode->GetItemDB();
-
-	FInventoryItem* ItemToAdd = ItemTable->FindRow<FInventoryItem>(ID, "");
-
-	if (ItemToAdd)
+	if (_gameplayGamemode != nullptr)
 	{
-		Inventory.Add(*ItemToAdd);
+		UDataTable* ItemTable = _gameplayGamemode->GetItemDB();
+
+		FInventoryItem* ItemToAdd = ItemTable->FindRow<FInventoryItem>(ID, "");
+
+		if (ItemToAdd)
+		{
+			Inventory.Add(*ItemToAdd);
+		}
 	}
+
+	
 }
