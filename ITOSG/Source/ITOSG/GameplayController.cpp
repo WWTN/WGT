@@ -37,7 +37,5 @@ void AGameplayController::AddItemToInventoryByID(FName ID)
 		{
 			Inventory.Add(*ItemToAdd);
 		}
-	}
-
-	
+	}	
 }

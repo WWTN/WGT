@@ -1,41 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for ITOSGEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.15.26726 toolchain (D:\Visual Studio Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for ITOSGEditor
-    Running UnrealHeaderTool "D:\WGT2\ITOSG\ITOSG.uproject" "D:\WGT2\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ITOSGEditor in 12.8518728 seconds
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-2036.dll".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-2036.pdb".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-3175.dll".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-3175.pdb".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-3847.dll".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-3847.pdb".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-4354.dll".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-4354.pdb".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-6716.dll".
-  Deleting old hot reload file: "D:\WGT2\ITOSG\Binaries\Win64\UE4Editor-ITOSG-6716.pdb".
-  Building 19 actions with 8 processes...
-    [1/19] SharedPCH.Engine.cpp
-    [2/19] ITOSG.init.gen.cpp
-    [3/19] Interactable.gen.cpp
-    [4/19] GameplayController.gen.cpp
-    [5/19] ITOSGPlayerController.gen.cpp
-    [6/19] ITOSGGameMode.gen.cpp
-    [7/19] GameplayGamemode.gen.cpp
-    [8/19] ITOSGCharacter.gen.cpp
-    [9/19] ITOSG.cpp
-    [10/19] ITOSGPlayerController.cpp
-    [11/19] Interactable.cpp
-    [12/19] GameplayGamemode.cpp
-    [13/19] PIckup.cpp
-    [14/19] ITOSGGameMode.cpp
-    [15/19] PIckup.gen.cpp
-    [16/19] GameplayController.cpp
-    [17/19] ITOSGCharacter.cpp
-    [18/19] UE4Editor-ITOSG.lib
-       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.exp
-    [19/19] UE4Editor-ITOSG.dll
-       Creating library D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.lib and object D:\WGT2\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.exp
+  Target is up to date
   Deploying ITOSGEditor Win64 Development...
-  Total build time: 77.18 seconds (Parallel executor: 28.58 seconds)
+  Total build time: 38.42 seconds (NoActionsToExecute executor: 0.00 seconds)
