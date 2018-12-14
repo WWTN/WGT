@@ -121,6 +121,4 @@ void AITOSGCharacter::CheckForInteractables()
 		//If we didn't hit anything, or the thing we hit was not an interactable, set the currentinteractable to nullptr
 		Controller->CurrentInteractable = nullptr;
 	}
-
-
 }
