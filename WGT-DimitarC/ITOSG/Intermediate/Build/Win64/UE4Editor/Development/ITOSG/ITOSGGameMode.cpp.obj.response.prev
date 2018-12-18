@@ -24,9 +24,9 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG"
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source"
-/I "C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source\ITOSG"
+/I "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Inc\ITOSG"
+/I "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Source"
+/I "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Source\ITOSG"
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -404,18 +404,18 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Source\ITOSG\ITOSGGameMode.cpp"
-/FI"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
-/Fo"C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\ITOSGGameMode.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Source\ITOSG\ITOSGGameMode.cpp"
+/FI"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\Definitions.ITOSG.h"
+/Fo"C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\ITOSGGameMode.cpp.obj"
 /TP
 /GR-
 /W4

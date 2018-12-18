@@ -1,26 +1,23 @@
-﻿  Performing full C++ include scan (building a new target)
-  Creating makefile for ITOSGEditor (changes to target files)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+﻿  Creating makefile for ITOSGEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.15.26726 toolchain (D:\Visual Studio Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for ITOSGEditor
-    Running UnrealHeaderTool "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\ITOSG.uproject" "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ITOSGEditor in 16.6689881 seconds
-  Building 12 actions with 4 processes...
+    Running UnrealHeaderTool "D:\WGT2\WGT-DimitarC\ITOSG\ITOSG.uproject" "D:\WGT2\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ITOSGEditor in 12.0939833 seconds
+  Building 12 actions with 8 processes...
     [1/12] PCLaunch.rc
     [2/12] SharedPCH.Engine.cpp
-    [3/12] ITOSG.init.gen.cpp
-    [4/12] ITOSGGameMode.cpp
-    [5/12] ITOSGCharacter.cpp
-    [6/12] ITOSGPlayerController.cpp
+    [3/12] ITOSG.cpp
+    [4/12] ITOSGGameMode.gen.cpp
+    [5/12] ITOSGPlayerController.gen.cpp
+    [6/12] ITOSGGameMode.cpp
     [7/12] ITOSGCharacter.gen.cpp
-    [8/12] ITOSGGameMode.gen.cpp
-    [9/12] ITOSG.cpp
-    [10/12] ITOSGPlayerController.gen.cpp
+    [8/12] ITOSG.init.gen.cpp
+    [9/12] ITOSGPlayerController.cpp
+    [10/12] ITOSGCharacter.cpp
     [11/12] UE4Editor-ITOSG.lib
-       Creating library C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.lib and object C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.exp
+       Creating library D:\WGT2\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.lib and object D:\WGT2\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.exp
     [12/12] UE4Editor-ITOSG.dll
-       Creating library C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.lib and object C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.exp
+       Creating library D:\WGT2\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.lib and object D:\WGT2\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.exp
   Deploying ITOSGEditor Win64 Development...
-UnrealBuildTool : error : Failed to write dependency cache: Access to the path 'C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor' is denied.
-UnrealBuildTool : error : Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\j016593e\Documents\Unreal Projects\ITOSG\Intermediate\Build\Win64\ITOSGEditor' is denied.
-  Total build time: 59.85 seconds (Parallel executor: 32.89 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""D:\_REAL SHIT\UNREAL ENGINE OFFICIAL\UE_4.20\Engine\Build\BatchFiles\Build.bat" ITOSGEditor Win64 Development "C:\Users\Monsta\Desktop\GITHUB GROUP 1\WGT-master\ITOSG\ITOSG.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+  Total build time: 40.58 seconds (Parallel executor: 23.98 seconds)
