@@ -38,14 +38,14 @@ private:
 	class UDecalComponent* CursorToWorld;
 
 protected:
-	//virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 
 public:
 
-	/*void OpenBackpack();
+	void OpenBackpack();
 
 	UFUNCTION(BlueprintImplementableEvent)
-		void ShowInventory();*/
+		void ShowInventory();
 
 
 };

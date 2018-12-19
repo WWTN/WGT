@@ -1,16 +1,9 @@
-﻿  Compiling game modules for hot reload
-  Parsing headers for ITOSGEditor
-    Running UnrealHeaderTool "C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\ITOSG.uproject" "C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\ITOSGEditor\Development\ITOSGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ITOSGEditor in 12.3850167 seconds
-  Building 7 actions with 4 processes...
-    [1/7] ITOSG.init.gen.cpp
-    [2/7] ITOSGGameMode.cpp
-    [3/7] ITOSGCharacter.cpp
-    [4/7] ITOSGPlayerController.cpp
-    [5/7] ITOSGCharacter.gen.cpp
-    [6/7] UE4Editor-ITOSG-6114.lib
-       Creating library C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-6114.lib and object C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-6114.exp
-    [7/7] UE4Editor-ITOSG-6114.dll
-       Creating library C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-6114.suppressed.lib and object C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG-6114.suppressed.exp
-  Deploying ITOSGEditor Win64 Development...
-  Total build time: 18.85 seconds (Parallel executor: 3.41 seconds)
+﻿  Building 1 action with 4 processes...
+    [1/1] UE4Editor-ITOSG.dll
+       Creating library C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.lib and object C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Intermediate\Build\Win64\UE4Editor\Development\ITOSG\UE4Editor-ITOSG.suppressed.exp
+ITOSGCharacter.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl AITOSGCharacter::OpenBackpack(void)" (?OpenBackpack@AITOSGCharacter@@QEAAXXZ) referenced in function "protected: virtual void __cdecl AITOSGCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@AITOSGCharacter@@MEAAXPEAVUInputComponent@@@Z)
+C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Binaries\Win64\UE4Editor-ITOSG.dll : fatal error LNK1120: 1 unresolved externals
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\Binaries\Win64\UE4Editor-ITOSG.dll
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+  Total build time: 5.56 seconds (Parallel executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "C:\Epic\UE4\UE_4.20\Engine\Build\BatchFiles\Build.bat ITOSGEditor Win64 Development "C:\Users\l012265h\Documents\GitHub\WGT\WGT-DimitarC\ITOSG\ITOSG.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
