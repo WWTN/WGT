@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ITOSG.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{89CC21E9-EDA5-47B2-9224-E8BF7749731B}</UniqueIdentifier>
+			<UniqueIdentifier>{EE263861-9679-4007-B941-5A2C2902750B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ITOSG.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0395D7D8-6D5C-48CF-BAD1-26F09FC87BA1}</UniqueIdentifier>
+			<UniqueIdentifier>{F0922832-E8B8-4FDD-89DF-A57E18EB7B31}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ITOSG">
-			<UniqueIdentifier>{3A8EC29E-F986-4E5F-B414-EA820AB24437}</UniqueIdentifier>
+			<UniqueIdentifier>{923352D2-CD3E-45D7-ACD6-DE1F3E87DEE3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ITOSG\ITOSG.Build.cs">
 			<Filter>Source\ITOSG</Filter>

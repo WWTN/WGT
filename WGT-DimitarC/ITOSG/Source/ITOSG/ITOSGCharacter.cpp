@@ -57,6 +57,14 @@ AITOSGCharacter::AITOSGCharacter()
 	PrimaryActorTick.bStartWithTickEnabled = true;
 }
 
+//void AITOSGCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+//{
+//	check(PlayerInputComponent);
+//
+//	PlayerInputComponent->BindAction("Inventory", IE_Pressed, this, &AITOSGCharacter::OpenBackpack);
+//
+//}
+
 void AITOSGCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
