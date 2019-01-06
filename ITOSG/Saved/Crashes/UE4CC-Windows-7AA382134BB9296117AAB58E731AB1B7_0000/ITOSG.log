@@ -1,0 +1,416 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+Stats thread started at 0.978784
+Loaded GFSDK_Aftermath_Lib.x64.dll
+ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+Mounting plugin Paper2D
+Mounting plugin AISupport
+Mounting plugin LightPropagationVolume
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin GitSourceControl
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin NullSourceCodeAccess
+Mounting plugin PerforceSourceControl
+Mounting plugin SubversionSourceControl
+Mounting plugin UObjectPlugin
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin AssetManagerEditor
+Mounting plugin CryptoKeys
+Mounting plugin DataValidation
+Mounting plugin FacialAnimation
+Mounting plugin GameplayTagsEditor
+Mounting plugin MacGraphicsSwitching
+Mounting plugin MeshEditor
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin PluginBrowser
+Mounting plugin SpeedTreeImporter
+Mounting plugin DatasmithContent
+Mounting plugin AlembicImporter
+Mounting plugin AppleImageUtils
+Mounting plugin AppleVision
+Mounting plugin BackChannel
+Mounting plugin CharacterAI
+Mounting plugin GeometryCache
+Mounting plugin HTML5Networking
+Mounting plugin ProxyLODPlugin
+Mounting plugin MagicLeap
+Mounting plugin MagicLeapEmulator
+Mounting plugin MagicLeapMedia
+Mounting plugin AndroidMedia
+Mounting plugin AvfMedia
+Mounting plugin ImgMedia
+Mounting plugin LinearTimecode
+Mounting plugin MediaCompositing
+Mounting plugin MediaPlayerEditor
+Mounting plugin WmfMedia
+Mounting plugin TcpMessaging
+Mounting plugin UdpMessaging
+Mounting plugin ActorSequence
+Mounting plugin LevelSequenceEditor
+Mounting plugin MatineeToLevelSequence
+Mounting plugin NetcodeUnitTest
+Mounting plugin NUTUnrealEngine4
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin OnlineSubsystemIOS
+Mounting plugin OnlineSubsystem
+Mounting plugin OnlineSubsystemNull
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin LauncherChunkInstaller
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin AndroidMoviePlayer
+Mounting plugin AndroidPermission
+Mounting plugin AppleMoviePlayer
+Mounting plugin ArchVisCharacter
+Mounting plugin AudioCapture
+Mounting plugin CableComponent
+Mounting plugin CustomMeshComponent
+Mounting plugin EditableMesh
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin GoogleCloudMessaging
+Mounting plugin ImmediatePhysics
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin MobilePatchingUtils
+Mounting plugin OculusVR
+Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+Mounting plugin PhysXVehicles
+Mounting plugin ProceduralMeshComponent
+Mounting plugin RuntimePhysXCooking
+Mounting plugin SteamVR
+Mounting plugin WindowsMoviePlayer
+Took  0.658s to configure plugins.
+Using libcurl 7.55.1-DEV
+ - built for x86_64-pc-win32
+ - supports SSL with OpenSSL/1.0.2h
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_IDN
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Build: ++UE4+Release-4.20-CL-4369336
+Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+Net CL: 4212847
+OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+Compiled (64-bit): Sep 17 2018 12:26:19
+Compiled with Visual C++: 19.13.26129.00
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.20
+Command Line:  
+Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+Installed Engine Build: 1
+Number of dev versions registered: 20
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+Took  0.006s to delete old logs.
+Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Object subsystem initialized
+Selected Device Profile: [Windows]
+Applying CVar settings loaded from the selected device profile: [Windows]
+Platform has ~ 32 GB [34272002048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+Going up to parent DeviceProfile []
+Computer: D105-07
+User: c014944h
+CPU Page size=4096, Cores=4
+High frequency timer resolution =3.410079 MHz
+Memory total: Physical=31.9GB (32GB approx)
+Platform Memory Stats for Windows
+Process Physical Memory: 100.48 MB used, 100.48 MB peak
+Process Virtual Memory: 89.36 MB used, 89.36 MB peak
+Physical Memory: 7443.05 MB used,  25241.27 MB free, 32684.33 MB total
+Virtual Memory: 4638.52 MB used,  25241.27 MB free, 134217728.00 MB total
+Using OS detected language (en-US).
+Using OS detected locale (en-GB).
+No specific localization for 'en-US' exists, so the 'en' localization will be used.
+Took  0.595s to InitEngineTextLocalization.
+Setting process to per monitor DPI aware
+New Slate User Created.  User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Failed to initialize OpenVR with code 110
+D3D11 adapters:
+   0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+      8088/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+   1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+      0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+Chosen D3D11 Adapter: 0
+Creating new Direct3DDevice
+    GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+EnumDisplayDevices:
+   0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+   1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+   2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+   3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+DebugString: FoundDriverCount:4 
+    Adapter Name: NVIDIA GeForce GTX 1070
+  Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+     Driver Date: 7-30-2018
+Texture pool is 5661 MB (70% of 8088 MB)
+Async texture creation enabled
+GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+Guid format shader working directory is 28 characters bigger than the processId version (E:/WGT-DimitarC/ITOSG/Intermediate/Shaders/WorkingDirectory/1692/).
+Cleaned the shader compiler working directory 'C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/'.
+Loaded TP AllDesktopTargetPlatform
+Loaded TP MacClientTargetPlatform
+Loaded TP MacNoEditorTargetPlatform
+Loaded TP MacServerTargetPlatform
+Loaded TP MacTargetPlatform
+Loaded TP WindowsClientTargetPlatform
+Loaded TP WindowsNoEditorTargetPlatform
+Loaded TP WindowsServerTargetPlatform
+Loaded TP WindowsTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP AndroidTargetPlatform
+Loaded TP HTML5TargetPlatform
+Loaded TP IOSTargetPlatform
+Loaded TP IOSTargetPlatform
+Loaded TP TVOSTargetPlatform
+Loaded TP TVOSTargetPlatform
+Loaded TP LinuxClientTargetPlatform
+Loaded TP LinuxNoEditorTargetPlatform
+Loaded TP LinuxServerTargetPlatform
+Loaded TP LinuxTargetPlatform
+Loaded TP LuminTargetPlatform
+Building Assets For Windows
+Cleaning working directory: C:/Users/c014944h/AppData/Local/Temp/UnrealXGEWorkingDir/
+Cannot use XGE Controller as Incredibuild is not installed on this machine.
+Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+Using Local Shader Compiler.
+Max Cache Size: 512 MB
+Starting with empty Boot cache
+FDerivedDataBackendGraph:  Pak pak cache file E:/WGT-DimitarC/ITOSG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node Pak for hierarchical cache Hierarchy.
+FDerivedDataBackendGraph:  CompressedPak pak cache file E:/WGT-DimitarC/ITOSG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+Using Local data cache path C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+Shared data cache path not found in *engine.ini, will not use an Shared cache.
+Unable to find inner node Shared for hierarchical cache Hierarchy.
+Verifying Global Shaders for PCD3D_SM5
+Using FreeType 2.6.0
+SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+FAssetRegistry took 0.0428 seconds to start up
+Selected Device Profile: [Windows]
+Simplygon DLL not present - disabling.
+Using SimplygonSwarm for distributed automatic mesh merging
+Using ProxyLODMeshReduction for automatic mesh merging
+Using QuadricMeshReduction for automatic static mesh reduction
+No automatic skeletal mesh reduction module available
+ITOSG 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 987612483)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/5/temp.47C67E0D471DA43A518F1286674AD9F6 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/5/temp.47C67E0D471DA43A518F1286674AD9F6!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.4D969A114104CDC48FA790939F98FFB5 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.4D969A114104CDC48FA790939F98FFB5!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/4/temp.3196E7954E6516FCC00751B41940182D (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/4/temp.3196E7954E6516FCC00751B41940182D!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/9/temp.51D46E3A491036E3871A89B5CC5F0BC5 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/9/temp.51D46E3A491036E3871A89B5CC5F0BC5!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/1/temp.72308897442517AC2FB90F8E37F41260 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/1/temp.72308897442517AC2FB90F8E37F41260!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/4/temp.F9EF1C914EC3BB88C43EC098FCD78961 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/4/temp.F9EF1C914EC3BB88C43EC098FCD78961!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/temp.4A2BA43A444C3A4C4BD72D89089E2D03 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/temp.4A2BA43A444C3A4C4BD72D89089E2D03!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/5/temp.F049ACFA4836525715075CAD29861E0B (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/5/temp.F049ACFA4836525715075CAD29861E0B!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/6/temp.972FF058443005F5BE867DBD7F5A39C3 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/6/temp.972FF058443005F5BE867DBD7F5A39C3!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/4/temp.98A1300C44F23AD58ABC569BAB4E1F87 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/4/temp.98A1300C44F23AD58ABC569BAB4E1F87!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/5/temp.FF7CA84F4741237DED9AE18D58196749 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/5/temp.FF7CA84F4741237DED9AE18D58196749!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/5/temp.79DE3BF64CF1EAD0D760289A82A77176 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/5/temp.79DE3BF64CF1EAD0D760289A82A77176!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/temp.1C6579F943BABD16F7C4EDB257C89503 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/temp.1C6579F943BABD16F7C4EDB257C89503!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/temp.14DE915B4021C6146C4587BA36C5FFE0 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/temp.14DE915B4021C6146C4587BA36C5FFE0!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/2/temp.D103371947E25FF7636C7BA5978BAFB1 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/2/temp.D103371947E25FF7636C7BA5978BAFB1!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/6/temp.5BB8AA02402E67BBEC1299BD038F0175 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/6/temp.5BB8AA02402E67BBEC1299BD038F0175!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/6/temp.03FE529C4CBF06D24D8B2FABE70A82CB (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/6/temp.03FE529C4CBF06D24D8B2FABE70A82CB!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/9/temp.7A18237047825BBF480F24A0AA67B2C3 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/9/temp.7A18237047825BBF480F24A0AA67B2C3!
+Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.165284 seconds
+38447 objects as part of root set at end of initial load.
+6692632 out of 0 bytes used by permanent object pool.
+CloseDisregardForGC: 0/0 objects in disregard for GC pool
+Initializing TcpMessaging bridge
+Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/temp.7D36171349621470114C43B5CA30D0CC (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/temp.7D36171349621470114C43B5CA30D0CC!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/temp.5D04674A4EF4EB860D2E5C904F8D5150 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/temp.5D04674A4EF4EB860D2E5C904F8D5150!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/temp.1EF2F4D644750ECA432D2288B6271104 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/temp.1EF2F4D644750ECA432D2288B6271104!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/7/temp.35B64E5E45A85B1B076E32B3F0802646 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/7/temp.35B64E5E45A85B1B076E32B3F0802646!
+Missing cached shader map for material M_Cursor_Decal, compiling. 
+Shaders left to compile 34
+Shaders left to compile 24
+Shaders left to compile 14
+Shaders left to compile 4
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A (There is not enough space on the disk.)
+Windows GetLastError: The operation completed successfully. (0)
+Building textures: T_Blade_BlackKnight_Sword1_M (AutoDXT, 256X256)
+Building textures: T_Blade_BlackKnight_Sword1_D (AutoDXT, 256X256)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/6/temp.9735FEA8499939A5F31D9483A764B35C (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/6/temp.9735FEA8499939A5F31D9483A764B35C!
+Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/0/temp.C1B441BA4C6C1F87F4081B8F453DDA46 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/8/temp.E774CE7D4883A0C1A582358F5D8A1873 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/0/temp.C1B441BA4C6C1F87F4081B8F453DDA46!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/8/temp.E774CE7D4883A0C1A582358F5D8A1873!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.C56F67294AE719E26537B29FB5B93048 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.28751D424FF48A4B88E2A0A2619ED909 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.C56F67294AE719E26537B29FB5B93048!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.28751D424FF48A4B88E2A0A2619ED909!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/3/temp.BAE98C654B42DC39B2C3F993553668E2 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/3/temp.BAE98C654B42DC39B2C3F993553668E2!
+Building textures: T_Blade_BlackKnight_Sword2_N (BC5, 256X256)
+Building textures: T_Blade_BlackKnight_Sword2_M (AutoDXT, 256X256)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.D72409884834D0EA1EA5B892B384FD66 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.D72409884834D0EA1EA5B892B384FD66!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.7CDE27B8421EFF030FE59AA89CFFC237 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.7CDE27B8421EFF030FE59AA89CFFC237!
+Building textures: T_Blade_BlackKnight_Sword2_D (AutoDXT, 256X256)
+Building textures: T_Blade_BlackKnight_Sword1_N (BC5, 256X256)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/1/temp.825DE7194EC048610F5A2DAF59FD3DF8 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/1/temp.825DE7194EC048610F5A2DAF59FD3DF8!
+Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/1/temp.27FE86474DC2E758DB3C919E6C0C3BC7 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/1/temp.27FE86474DC2E758DB3C919E6C0C3BC7!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.28C3239043E82E260D3739A12FFE42A3 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.D2A6A4B84DCCFCA0C8A820B6B9A3C682 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.2A50BFB4435ECA65A8A803A100166A0E (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.28C3239043E82E260D3739A12FFE42A3!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.D2A6A4B84DCCFCA0C8A820B6B9A3C682!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/2/temp.D10A729B4024EE67C3EF3A94BC6603CC (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.2A50BFB4435ECA65A8A803A100166A0E!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/2/temp.D10A729B4024EE67C3EF3A94BC6603CC!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.57565EC147F2DBFDEE1875924496D69B (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/0/temp.ABCACE0948D83E807E27A4B37CAF0AA0 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.AB4BA0864D5AC1AB90D115A644BA1B2B (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.57565EC147F2DBFDEE1875924496D69B!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/0/temp.ABCACE0948D83E807E27A4B37CAF0AA0!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.AB4BA0864D5AC1AB90D115A644BA1B2B!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/temp.9A8216B94654BBABE729AEAC90E57B55 (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.1DF60F9C472A39D7770506998BF59B6E (There is not enough space on the disk.)
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.A4F0EF6B4B20EF887CBAFFB6131F6B5B (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/temp.9A8216B94654BBABE729AEAC90E57B55!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.1DF60F9C472A39D7770506998BF59B6E!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.6DD37A0041C60E0F8D516D85FBDAC48C (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.A4F0EF6B4B20EF887CBAFFB6131F6B5B!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.CFCBF204439FF6EF13C0398A134B77D6 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.6DD37A0041C60E0F8D516D85FBDAC48C!
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.CFCBF204439FF6EF13C0398A134B77D6!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.6B5BA26C488DF6FE91B12480DC8408C0 (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.6B5BA26C488DF6FE91B12480DC8408C0!
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.FB80315A49BC10F9F98F39946A44CD63 (There is not enough space on the disk.)
+Missing cached shader map for material M_Blade_BlackKnight, compiling. 
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.FB80315A49BC10F9F98F39946A44CD63!
+Building Skeletal Mesh SK_Blade_BlackKnight...
+Built Skeletal Mesh [0.00s] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/7/temp.9527BA934C8750B3BCABE4847E4BB5CC (There is not enough space on the disk.)
+FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/7/temp.9527BA934C8750B3BCABE4847E4BB5CC!

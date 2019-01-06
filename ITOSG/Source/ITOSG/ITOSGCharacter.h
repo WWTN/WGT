@@ -36,5 +36,17 @@ private:
 	/** A decal that projects to the cursor location. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UDecalComponent* CursorToWorld;
+
+protected:
+	//virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+
+public:
+
+	/*void OpenBackpack();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void ShowInventory();*/
+
+
 };
 

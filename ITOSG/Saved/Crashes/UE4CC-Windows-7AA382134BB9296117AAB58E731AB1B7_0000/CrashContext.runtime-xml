@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-7AA382134BB9296117AAB58E731AB1B7_0000</CrashGUID>
+		<ProcessId>1692</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-ITOSG</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.20.3-4369336+++UE4+Release-4.20</EngineVersion>
+		<CommandLine>&quot;E:\WGT-DimitarC\ITOSG\ITOSG.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.20-CL-4369336</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>c014944h</UserName>
+		<BaseDir>C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Epic/UE4/UE_4.20/</RootDir>
+		<MachineId>77BD37B1482AF5588BAA6BBB4F7F3D2D</MachineId>
+		<LoginId>77bd37b1482af5588baa6bbb4f7f3d2d</LoginId>
+		<EpicAccountId />
+		<CallStack />
+		<PCallStack>UE4Editor-Engine 0x000000005cb80000 + 109987a UE4Editor-Engine 0x000000005cb80000 + 1046467 UE4Editor-Engine 0x000000005cb80000 + 1088dd8 UE4Editor-Core 0x000000005f7d0000 + 4e6b7c UE4Editor-Core 0x000000005f7d0000 + 4e17c7 KERNEL32 0x00000000b07d0000 + 13034 ntdll 0x00000000b2260000 + 71471</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 1168] Could not write the shader compiler transfer filename to &apos;C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/16BAEBA0444966BC351F15844EF53636/00531BE66425987BD99191BA1C4C2BC2A&apos; (Free Disk Space: 0.</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1070</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>34272002048</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>25886507008</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731673649152</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>675254272</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>675254272</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>701808640</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>701816832</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636800441059840000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

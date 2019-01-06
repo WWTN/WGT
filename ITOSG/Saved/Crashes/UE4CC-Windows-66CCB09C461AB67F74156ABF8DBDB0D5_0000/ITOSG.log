@@ -1,0 +1,470 @@
+﻿Log file open, 12/10/18 13:10:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ITOSG
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.331686
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.742s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.213s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.10-13.10.18:195][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-13.10.18:195][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.10-13.10.18:682][  0]LogHAL: Display: Platform has ~ 32 GB [34272002048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.10-13.10.18:682][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.10-13.10.18:682][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.10-13.10.18:683][  0]LogInit: Computer: D105-07
+[2018.12.10-13.10.18:683][  0]LogInit: User: c014944h
+[2018.12.10-13.10.18:683][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.10-13.10.18:683][  0]LogInit: High frequency timer resolution =3.410079 MHz
+[2018.12.10-13.10.18:684][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.12.10-13.10.18:684][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.10-13.10.18:684][  0]LogMemory: Process Physical Memory: 100.45 MB used, 100.45 MB peak
+[2018.12.10-13.10.18:684][  0]LogMemory: Process Virtual Memory: 89.39 MB used, 89.39 MB peak
+[2018.12.10-13.10.18:684][  0]LogMemory: Physical Memory: 7619.28 MB used,  25065.05 MB free, 32684.33 MB total
+[2018.12.10-13.10.18:684][  0]LogMemory: Virtual Memory: 4638.52 MB used,  25065.05 MB free, 134217728.00 MB total
+[2018.12.10-13.10.18:743][  0]LogInit: Using OS detected language (en-US).
+[2018.12.10-13.10.18:743][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.10-13.10.18:745][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.10-13.10.19:136][  0]LogStreaming: Display: Took  0.393s to InitEngineTextLocalization.
+[2018.12.10-13.10.19:137][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.10-13.10.19:271][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.10-13.10.19:271][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.10-13.10.19:666][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-13.10.19:666][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.10-13.10.19:759][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.12.10-13.10.19:759][  0]LogD3D11RHI:       8088/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.10-13.10.19:762][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.10-13.10.19:762][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.10-13.10.19:762][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.10-13.10.19:770][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.10-13.10.19:770][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.10-13.10.19:770][  0]LogWindows: EnumDisplayDevices:
+[2018.12.10-13.10.19:770][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.12.10-13.10.19:771][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.12.10-13.10.19:772][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.10-13.10.19:773][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.10-13.10.19:773][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.10-13.10.19:773][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.12.10-13.10.19:773][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.12.10-13.10.19:773][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.12.10-13.10.19:773][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.12.10-13.10.19:831][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.10-13.10.19:849][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.10-13.10.19:939][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (E:/WGT-DimitarC/ITOSG/Intermediate/Shaders/WorkingDirectory/4312/).
+[2018.12.10-13.10.19:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/'.
+[2018.12.10-13.10.20:368][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.10-13.10.20:385][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.10-13.10.20:402][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.10-13.10.20:417][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.10-13.10.20:434][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.10-13.10.20:450][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.10-13.10.20:466][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.10-13.10.20:482][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.10-13.10.20:491][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.10-13.10.20:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-13.10.20:594][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.10-13.10.20:702][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-13.10.20:702][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-13.10.20:774][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-13.10.20:774][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-13.10.20:799][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.10-13.10.20:818][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.10-13.10.20:847][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.10-13.10.20:863][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.10-13.10.20:874][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.10-13.10.20:874][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.10-13.10.21:038][  0]LogXGEController: Cleaning working directory: C:/Users/c014944h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.10-13.10.21:038][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.10-13.10.21:039][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.10-13.10.21:039][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: Error: Memory cache was corrputed (size) C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: Warning: Could not load Boot cache: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/WGT-DimitarC/ITOSG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/WGT-DimitarC/ITOSG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.10-13.10.22:334][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.10-13.10.22:346][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.10-13.10.22:359][  0]LogDerivedDataCache: Using Local data cache path C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.10-13.10.22:359][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.10-13.10.22:359][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.10-13.10.22:397][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.10-13.10.22:398][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.10-13.10.22:399][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.10-13.10.22:498][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2018.12.10-13.10.23:340][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-13.10.23:563][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.10-13.10.23:570][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.10-13.10.23:570][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.10-13.10.23:570][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.10-13.10.23:570][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.10-13.10.23:611][  0]LogNetVersion: ITOSG 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 987612483)
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/5/temp.1BC3D2A440235816D143CBA3D47EA08F (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/5/temp.1BC3D2A440235816D143CBA3D47EA08F!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.7F8C627D4D5E13D32A7AA4960A12A8CE (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.7F8C627D4D5E13D32A7AA4960A12A8CE!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/4/temp.3012E463429EE1ECF14C6C8620B616C8 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/4/temp.3012E463429EE1ECF14C6C8620B616C8!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/9/temp.E296C6C84CC0C4E0447664A3397163C3 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/9/temp.E296C6C84CC0C4E0447664A3397163C3!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/1/temp.FBF2B2F842EB56E4324F0AA5A1C43F49 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/1/temp.FBF2B2F842EB56E4324F0AA5A1C43F49!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/4/temp.4C271C33494A234ED163D79DCA378B8D (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/4/temp.4C271C33494A234ED163D79DCA378B8D!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/temp.C6AC3C284E9260CDA2654194A9648489 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/temp.C6AC3C284E9260CDA2654194A9648489!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/5/temp.1F59DA3D4137ECC63D0834A9AD51FAA5 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/5/temp.1F59DA3D4137ECC63D0834A9AD51FAA5!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/6/temp.7C87F36544036559C30AF2966F4A8E3E (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/6/temp.7C87F36544036559C30AF2966F4A8E3E!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/4/temp.0AD405104394045DE8BB1E8422F8E7DC (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/4/temp.0AD405104394045DE8BB1E8422F8E7DC!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/5/temp.9510E8ED42185D3DBE488C846F0C694F (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/5/temp.9510E8ED42185D3DBE488C846F0C694F!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/5/temp.7E11D5CE4B5AC827E271D189E10F1E45 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/5/temp.7E11D5CE4B5AC827E271D189E10F1E45!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/temp.B461697A4156C8F47DF0FC9E4CCD0991 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/temp.B461697A4156C8F47DF0FC9E4CCD0991!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/temp.82937CD94B5282D9CDB1778D1371D05D (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/temp.82937CD94B5282D9CDB1778D1371D05D!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/2/temp.A5CC472140F9A1ECF4D388A23BAA0694 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/2/temp.A5CC472140F9A1ECF4D388A23BAA0694!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/6/temp.C83E37C94B1C122BA00BFAA15A38B66D (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/6/temp.C83E37C94B1C122BA00BFAA15A38B66D!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/6/temp.5A1CA701405F08BD18E7B7A3205C8F85 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/6/temp.5A1CA701405F08BD18E7B7A3205C8F85!
+[2018.12.10-13.10.26:858][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/9/temp.5FFC8C5640DCEE154EFDAEA97BFA28D5 (There is not enough space on the disk.)
+[2018.12.10-13.10.26:858][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/9/temp.5FFC8C5640DCEE154EFDAEA97BFA28D5!
+[2018.12.10-13.10.26:858][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.497051 seconds
+[2018.12.10-13.10.26:869][  0]LogUObjectArray: 38443 objects as part of root set at end of initial load.
+[2018.12.10-13.10.26:869][  0]LogUObjectAllocator: 6692304 out of 0 bytes used by permanent object pool.
+[2018.12.10-13.10.26:870][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.10-13.10.28:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.10-13.10.28:236][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.10-13.10.28:652][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/temp.2DF9AB3340AE763824B2489AACB2EB89 (There is not enough space on the disk.)
+[2018.12.10-13.10.28:652][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/temp.2DF9AB3340AE763824B2489AACB2EB89!
+[2018.12.10-13.10.28:652][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/temp.CFB226CE42A464B007EE61BE3FA629FB (There is not enough space on the disk.)
+[2018.12.10-13.10.28:652][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/temp.CFB226CE42A464B007EE61BE3FA629FB!
+[2018.12.10-13.10.28:652][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/temp.0C3F1C2E4332F5BFCCFC36A388B12656 (There is not enough space on the disk.)
+[2018.12.10-13.10.28:652][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/temp.0C3F1C2E4332F5BFCCFC36A388B12656!
+[2018.12.10-13.10.28:652][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/7/temp.5BCAD9884630FD3237D9CBBE303D0F40 (There is not enough space on the disk.)
+[2018.12.10-13.10.28:652][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/7/temp.5BCAD9884630FD3237D9CBBE303D0F40!
+[2018.12.10-13.10.28:652][  0]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.12.10-13.10.28:760][  0]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.10-13.10.28:761][  0]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.10-13.10.28:761][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.10-13.10.28:761][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:761][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:762][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/Temp/UnrealShaderWorkingDir/D2CE05D647EDF1274B08D5BBA6D34E08/0A5F7771A445A3F05FBA58A93A8B2A2CD (There is not enough space on the disk.)
+[2018.12.10-13.10.28:763][  0]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword1_D (AutoDXT, 256X256)
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword1_M (AutoDXT, 256X256)
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword2_N (BC5, 256X256)
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword2_M (AutoDXT, 256X256)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/6/temp.BC8FBA5343227B040AF83DBFB8032187 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/6/temp.BC8FBA5343227B040AF83DBFB8032187!
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword2_D (AutoDXT, 256X256)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/8/temp.D6D28E6242F08689115F1B88956A1F29 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/8/temp.D6D28E6242F08689115F1B88956A1F29!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/0/temp.298409CF41967E48D1D7C1BA8D099CE6 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/0/temp.298409CF41967E48D1D7C1BA8D099CE6!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/2/temp.3A67645D4762AD33A2915EA3BC11FDDB (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/2/temp.3A67645D4762AD33A2915EA3BC11FDDB!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/1/temp.B756A844437A1E8EE49695883FE88325 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/1/temp.B756A844437A1E8EE49695883FE88325!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/1/temp.D43BBED147DE18EB62D21DAA114C76CA (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/1/temp.D43BBED147DE18EB62D21DAA114C76CA!
+[2018.12.10-13.10.29:075][  0]LogTexture: Display: Building textures: T_Blade_BlackKnight_Sword1_N (BC5, 256X256)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.E236227143A5BEBEBBF0B5AE5DB5C786 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.8E6EC4484017B35B755F0395D49C2527 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.E236227143A5BEBEBBF0B5AE5DB5C786!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.8E6EC4484017B35B755F0395D49C2527!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.CBA661A74FBA7C47B009019D7706E1DC (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.CBA661A74FBA7C47B009019D7706E1DC!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.17026E73480A68D840E630808EB30454 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/0/temp.04806AAC4DAF09FA4B2366B44C8CDCC5 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.17026E73480A68D840E630808EB30454!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/0/temp.04806AAC4DAF09FA4B2366B44C8CDCC5!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.D93E93B441D38CBBDF8799B79E78F7B2 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.D93E93B441D38CBBDF8799B79E78F7B2!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/3/temp.16E56070445E523D588181BD28A234D9 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/3/temp.16E56070445E523D588181BD28A234D9!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.7903E79244B36878A1C8D9AD47133423 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.159F9CD442A26255FA720D8F0C244EE9 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.7903E79244B36878A1C8D9AD47133423!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/9/temp.159F9CD442A26255FA720D8F0C244EE9!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.0B9D075B4E61E2C20A82099C90186CB1 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/temp.B37F8C9F4CFCAE2B82A3DF8E6D4EFFAB (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.D8E0B18D46C377AC718CBC84972735F4 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.0B9D075B4E61E2C20A82099C90186CB1!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.D8E0B18D46C377AC718CBC84972735F4!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/temp.B37F8C9F4CFCAE2B82A3DF8E6D4EFFAB!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.936A599047DD76D736A0E69C60597C90 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/5/temp.936A599047DD76D736A0E69C60597C90!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.828035F44B9BF500E4C7E4BBAC3B9FBE (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/5/temp.828035F44B9BF500E4C7E4BBAC3B9FBE!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.3A8B7C804ECEE6F4751C268D0EB33789 (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.D97DAD9948448E188492D1A1DC1D61FD (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.993736CF4680F07E6BEBCB9F2592907C (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/3/temp.3A8B7C804ECEE6F4751C268D0EB33789!
+[2018.12.10-13.10.29:075][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.3CF8022C4CCAA8E45D48919CA07BEA9B (There is not enough space on the disk.)
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/0/temp.D97DAD9948448E188492D1A1DC1D61FD!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/temp.993736CF4680F07E6BEBCB9F2592907C!
+[2018.12.10-13.10.29:075][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/2/temp.3CF8022C4CCAA8E45D48919CA07BEA9B!
+[2018.12.10-13.10.29:075][  0]LogMaterial: Display: Missing cached shader map for material M_Blade_BlackKnight, compiling. 
+[2018.12.10-13.10.29:116][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Blade_BlackKnight...
+[2018.12.10-13.10.29:117][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+[2018.12.10-13.10.29:574][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/7/temp.E0AE8C9C463C8AF0B12F67BD6B62286B (There is not enough space on the disk.)
+[2018.12.10-13.10.29:574][  0]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/c014944h/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/7/temp.E0AE8C9C463C8AF0B12F67BD6B62286B!
+[2018.12.10-13.10.29:574][  0]SourceControl: Source control is disabled
+[2018.12.10-13.10.29:574][  0]SourceControl: Source control is disabled
+[2018.12.10-13.10.29:581][  0]SourceControl: Source control is disabled
+[2018.12.10-13.10.29:585][  0]SourceControl: Source control is disabled
+[2018.12.10-13.10.30:152][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.10-13.10.30:272][  0]LogOcInput: OculusInput pre-init called
+[2018.12.10-13.10.30:342][  0]LogEngine: Initializing Engine...
+[2018.12.10-13.10.30:343][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-13.10.30:344][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-13.10.30:344][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-13.10.30:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-13.10.30:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-13.10.30:808][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.10-13.10.30:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.10-13.10.30:843][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.10-13.10.30:886][  0]LogInit: FAudioDevice initialized.
+[2018.12.10-13.10.30:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.10-13.10.30:887][  0]LogFileManager: Error: Error writing to file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:887][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:887][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:888][  0]LogDerivedDataCache: Saved boot cache 0.00s 3MB C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-13.10.30:888][  0]LogFileManager: Error: Error flushing file: C:/Users/c014944h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc (There is not enough space on the disk.)
+[2018.12.10-13.10.30:939][  0]LogInit: Texture streaming: Enabled
+[2018.12.10-13.10.30:968][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.10-13.10.30:968][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={072F9777-4093-1B57-2BD6-30803BE326E1}
+[2018.12.10-13.10.30:989][  0]LogInit: Transaction tracking system initialized
+[2018.12.10-13.10.31:044][  0]BlueprintLog: New page: Editor Load
+[2018.12.10-13.10.31:224][  0]LocalizationService: Localization service is disabled
+[2018.12.10-13.10.32:802][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.10-13.10.32:802][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.10-13.10.32:802][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.10-13.10.32:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-13.10.32:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-13.10.32:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-13.10.32:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
